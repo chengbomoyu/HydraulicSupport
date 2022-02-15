@@ -10,7 +10,6 @@ HydraulicSystem::HydraulicSystem(){
 	dvaluePressureZeroAD = 0;
 
 	dvaluePressureNowAD = 0;
-		
 	dValuePressureError = 0;
 	dValuePressureLastError = 0;
 	dValuePressurePreviousError = 0;
@@ -51,8 +50,7 @@ void HydraulicSystem::HydraulicSystemPIDControl(){
 	dValuePressureNow = temp * 2000;
 
 	if(statusSystem == true){
-		dValuePressureLastError = 0;
-		dValuePressurePreviousError = 0;
+
 		dValuePressureError = dValuePressureSet - dValuePressureNow;	
 	 
 		dValuePressureContlolADDelta =  dValueKp * (dValuePressureError - dValuePressureLastError) 
@@ -63,6 +61,7 @@ void HydraulicSystem::HydraulicSystemPIDControl(){
 		dValuePressureLastError = dValuePressureError;		  	
 
 		dValuePressureContlolAD = dValuePressureContlolAD + dValuePressureContlolADDelta;
+		dValuePressureContlolAD = dValuePressureContlolAD / 2000;
 		if(dValuePressureContlolAD >= 5) dValuePressureContlolAD = 5;
 		if(dValuePressureContlolAD <= 0) dValuePressureContlolAD = 0;
 		GTR_SetAoValue(dValuePressureContlolAD,0,1);

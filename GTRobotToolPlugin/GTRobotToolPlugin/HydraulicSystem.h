@@ -21,8 +21,7 @@ public:
 
 	HydraulicSystem();
 	~HydraulicSystem();
-	
-	
+		
 	void HydraulicSystemEnableSet();
 	void HydraulicSystemPressureSend();
 	void HydraulicSystemSerPressureZero();

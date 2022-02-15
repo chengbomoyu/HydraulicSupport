@@ -17,7 +17,6 @@ Support::Support(QWidget *parent){
 	this->dValueKi = 0;
 	this->dValueKd = 0;
 	this->signal_slot_connect();
-	bciHydraulicSystemInit();
 	GTR_RegisterPlcLoop(1,bciHydraulicSystemPIDControl);
 }
 Support::~Support(){
@@ -90,7 +89,7 @@ void Support::onpbtnclicked_buttonSystemReset(){
 }
 
 void Support::onpbtnclicked_buttonSensorZero(){
-	this->dValuePressureNow = 0;
+	bciHydraulicSystemPressureSetZero();
 }
 
 void Support::onpbtnclicked_buttonPressureDown(){

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Permission>
+<User name="Operator"> 
+	<Application name = "工艺" id="0">
+		<DllName>HyP_control</DllName>
+		<MenuVis>1</MenuVis>
+		<Launch>1</Launch>
+		<Icon_menu></Icon_menu>
+		<Icon_common></Icon_common>
+		<Icon_craft></Icon_craft>
+	</Application>
+</User> 
+  
+<User name="Manager">
+		<Application name = "工艺" id="0">
+		<DllName>HyP_control</DllName>
+		<MenuVis>1</MenuVis>
+		<Launch>1</Launch>
+		<Icon_menu></Icon_menu>
+		<Icon_common></Icon_common>
+		<Icon_craft></Icon_craft>
+	</Application>
+</User> 
+  
+
+<User name="Factory">
+		<Application name = "工艺" id="0">
+		<DllName>HyP_control</DllName>
+		<MenuVis>1</MenuVis>
+		<Launch>1</Launch>
+		<Icon_menu></Icon_menu>
+		<Icon_common></Icon_common>
+		<Icon_craft></Icon_craft>
+	</Application>
+</User> 
+  
+</Permission>
