@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SystemPlcDoYConfig>
+	<PlcDoYConfig id="0">
+        <valueType>0</valueType>
+        <yIndex>0</yIndex>
+        <yBit>0</yBit>
+        <doEnable>1</doEnable>
+        <doType>1</doType>
+        <doIndex>0</doIndex>
+        <doSense>1</doSense>
+        <comment>start</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="1">
+        <valueType>0</valueType>
+        <yIndex>0</yIndex>
+        <yBit>1</yBit>
+        <doEnable>1</doEnable>
+        <doType>1</doType>
+        <doIndex>1</doIndex>
+        <doSense>1</doSense>
+        <comment>stop</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="2">
+        <valueType>0</valueType>
+        <yIndex>0</yIndex>
+        <yBit>2</yBit>
+        <doEnable>1</doEnable>
+        <doType>1</doType>
+        <doIndex>2</doIndex>
+        <doSense>1</doSense>
+        <comment>rev</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="3">
+        <valueType>0</valueType>
+        <yIndex>0</yIndex>
+        <yBit>3</yBit>
+        <doEnable>1</doEnable>
+        <doType>1</doType>
+        <doIndex>3</doIndex>
+        <doSense>1</doSense>
+        <comment>servo</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="4">
+        <valueType>0</valueType>
+        <yIndex>0</yIndex>
+        <yBit>4</yBit>
+        <doEnable>1</doEnable>
+        <doType>1</doType>
+        <doIndex>4</doIndex>
+        <doSense>1</doSense>
+        <comment>del</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="5">
+        <valueType>0</valueType>
+        <yIndex>0</yIndex>
+        <yBit>5</yBit>
+        <doEnable>1</doEnable>
+        <doType>1</doType>
+        <doIndex>5</doIndex>
+        <doSense>1</doSense>
+        <comment>insert</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="6">
+        <valueType>0</valueType>
+        <yIndex>0</yIndex>
+        <yBit>6</yBit>
+        <doEnable>1</doEnable>
+        <doType>1</doType>
+        <doIndex>6</doIndex>
+        <doSense>1</doSense>
+        <comment>modify</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="7">
+        <valueType>0</valueType>
+        <yIndex>0</yIndex>
+        <yBit>7</yBit>
+        <doEnable>1</doEnable>
+        <doType>1</doType>
+        <doIndex>7</doIndex>
+        <doSense>1</doSense>
+        <comment>cmd</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="8">
+        <valueType>0</valueType>
+        <yIndex>0</yIndex>
+        <yBit>8</yBit>
+        <doEnable>1</doEnable>
+        <doType>1</doType>
+        <doIndex>8</doIndex>
+        <doSense>1</doSense>
+        <comment>ext</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="9">
+        <valueType>0</valueType>
+        <yIndex>0</yIndex>
+        <yBit>9</yBit>
+        <doEnable>1</doEnable>
+        <doType>1</doType>
+        <doIndex>9</doIndex>
+        <doSense>1</doSense>
+        <comment>robot</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="10">
+        <valueType>0</valueType>
+        <yIndex>0</yIndex>
+        <yBit>10</yBit>
+        <doEnable>1</doEnable>
+        <doType>1</doType>
+        <doIndex>10</doIndex>
+        <doSense>1</doSense>
+        <comment>notlmt</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="11">
+        <valueType>0</valueType>
+        <yIndex>0</yIndex>
+        <yBit>11</yBit>
+        <doEnable>1</doEnable>
+        <doType>1</doType>
+        <doIndex>11</doIndex>
+        <doSense>1</doSense>
+        <comment>hj</comment>
+    </PlcDoYConfig>
+	
+    <PlcDoYConfig id="12">
+        <valueType>0</valueType>
+        <yIndex>1</yIndex>
+        <yBit>0</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>0</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.0</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="13">
+        <valueType>0</valueType>
+        <yIndex>1</yIndex>
+        <yBit>1</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>1</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.1</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="14">
+        <valueType>0</valueType>
+        <yIndex>1</yIndex>
+        <yBit>2</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>2</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.2</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="15">
+        <valueType>0</valueType>
+        <yIndex>1</yIndex>
+        <yBit>3</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>3</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.3</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="16">
+        <valueType>0</valueType>
+        <yIndex>1</yIndex>
+        <yBit>4</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>4</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.4</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="17">
+        <valueType>0</valueType>
+        <yIndex>1</yIndex>
+        <yBit>5</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>5</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.5</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="18">
+        <valueType>0</valueType>
+        <yIndex>1</yIndex>
+        <yBit>6</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>6</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.6</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="19">
+        <valueType>0</valueType>
+        <yIndex>1</yIndex>
+        <yBit>7</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>7</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.7</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="20">
+        <valueType>0</valueType>
+        <yIndex>1</yIndex>
+        <yBit>8</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>8</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.8</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="21">
+        <valueType>0</valueType>
+        <yIndex>1</yIndex>
+        <yBit>9</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>9</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.9</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="22">
+        <valueType>0</valueType>
+        <yIndex>1</yIndex>
+        <yBit>10</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>10</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.10</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="23">
+        <valueType>0</valueType>
+        <yIndex>1</yIndex>
+        <yBit>11</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>11</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.11</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="24">
+        <valueType>0</valueType>
+        <yIndex>1</yIndex>
+        <yBit>12</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>12</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.12</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="25">
+        <valueType>0</valueType>
+        <yIndex>1</yIndex>
+        <yBit>13</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>13</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.13</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="26">
+        <valueType>0</valueType>
+        <yIndex>1</yIndex>
+        <yBit>14</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>14</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.14</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="27">
+        <valueType>0</valueType>
+        <yIndex>1</yIndex>
+        <yBit>15</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>15</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.15</comment>
+    </PlcDoYConfig>
+	
+	
+	<PlcDoYConfig id="28">
+        <valueType>0</valueType>
+        <yIndex>2</yIndex>
+        <yBit>0</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>16</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.16</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="29">
+        <valueType>0</valueType>
+        <yIndex>2</yIndex>
+        <yBit>1</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>17</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.17</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="30">
+        <valueType>0</valueType>
+        <yIndex>2</yIndex>
+        <yBit>2</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>18</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.18</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="31">
+        <valueType>0</valueType>
+        <yIndex>2</yIndex>
+        <yBit>3</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>19</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.19</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="32">
+        <valueType>0</valueType>
+        <yIndex>2</yIndex>
+        <yBit>4</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>20</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.20</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="33">
+        <valueType>0</valueType>
+        <yIndex>2</yIndex>
+        <yBit>5</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>21</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.21</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="34">
+        <valueType>0</valueType>
+        <yIndex>2</yIndex>
+        <yBit>6</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>22</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.22</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="35">
+        <valueType>0</valueType>
+        <yIndex>2</yIndex>
+        <yBit>7</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>23</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.23</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="36">
+        <valueType>0</valueType>
+        <yIndex>2</yIndex>
+        <yBit>8</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>24</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.24</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="37">
+        <valueType>0</valueType>
+        <yIndex>2</yIndex>
+        <yBit>9</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>25</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.25</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="38">
+        <valueType>0</valueType>
+        <yIndex>2</yIndex>
+        <yBit>10</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>26</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.26</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="39">
+        <valueType>0</valueType>
+        <yIndex>2</yIndex>
+        <yBit>11</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>27</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.27</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="40">
+        <valueType>0</valueType>
+        <yIndex>2</yIndex>
+        <yBit>12</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>28</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.28</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="41">
+        <valueType>0</valueType>
+        <yIndex>2</yIndex>
+        <yBit>13</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>29</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.29</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="42">
+        <valueType>0</valueType>
+        <yIndex>2</yIndex>
+        <yBit>14</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>30</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.30</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="43">
+        <valueType>0</valueType>
+        <yIndex>2</yIndex>
+        <yBit>15</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>31</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.31</comment>
+    </PlcDoYConfig>
+	
+	<PlcDoYConfig id="44">
+        <valueType>0</valueType>
+        <yIndex>3</yIndex>
+        <yBit>0</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>32</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.32</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="45">
+        <valueType>0</valueType>
+        <yIndex>3</yIndex>
+        <yBit>1</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>33</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.33</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="46">
+        <valueType>0</valueType>
+        <yIndex>3</yIndex>
+        <yBit>2</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>34</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.34</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="47">
+        <valueType>0</valueType>
+        <yIndex>3</yIndex>
+        <yBit>3</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>35</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.35</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="48">
+        <valueType>0</valueType>
+        <yIndex>3</yIndex>
+        <yBit>4</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>36</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.36</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="49">
+        <valueType>0</valueType>
+        <yIndex>3</yIndex>
+        <yBit>5</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>37</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.37</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="50">
+        <valueType>0</valueType>
+        <yIndex>3</yIndex>
+        <yBit>6</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>38</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.38</comment>
+    </PlcDoYConfig>
+    <PlcDoYConfig id="51">
+        <valueType>0</valueType>
+        <yIndex>3</yIndex>
+        <yBit>7</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>39</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.39</comment>
+	</PlcDoYConfig>
+	
+	<PlcDoYConfig id="52">
+        <valueType>0</valueType>
+        <yIndex>3</yIndex>
+        <yBit>8</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>40</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.40</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="53">
+        <valueType>0</valueType>
+        <yIndex>3</yIndex>
+        <yBit>9</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>41</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.41</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="54">
+        <valueType>0</valueType>
+        <yIndex>3</yIndex>
+        <yBit>10</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>42</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.42</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="55">
+        <valueType>0</valueType>
+        <yIndex>3</yIndex>
+        <yBit>11</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>43</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.43</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="56">
+        <valueType>0</valueType>
+        <yIndex>3</yIndex>
+        <yBit>12</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>44</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.44</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="57">
+        <valueType>0</valueType>
+        <yIndex>3</yIndex>
+        <yBit>13</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>45</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.45</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="58">
+        <valueType>0</valueType>
+        <yIndex>3</yIndex>
+        <yBit>14</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>46</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.46</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="59">
+        <valueType>0</valueType>
+        <yIndex>3</yIndex>
+        <yBit>15</yBit>
+        <doEnable>1</doEnable>
+        <doType>0</doType>
+        <doIndex>47</doIndex>
+        <doSense>0</doSense>
+        <comment>本地DO1.47</comment>
+	</PlcDoYConfig>
+	
+	<PlcDoYConfig id="76">
+        <valueType>0</valueType>
+        <yIndex>4</yIndex>
+        <yBit>0</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>0</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.0</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="77">
+        <valueType>0</valueType>
+        <yIndex>4</yIndex>
+        <yBit>1</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>1</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.1</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="78">
+        <valueType>0</valueType>
+        <yIndex>4</yIndex>
+        <yBit>2</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>2</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.2</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="79">
+        <valueType>0</valueType>
+        <yIndex>4</yIndex>
+        <yBit>3</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>3</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.3</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="80">
+        <valueType>0</valueType>
+        <yIndex>4</yIndex>
+        <yBit>4</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>4</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.4</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="81">
+        <valueType>0</valueType>
+        <yIndex>4</yIndex>
+        <yBit>5</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>5</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.5</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="82">
+        <valueType>0</valueType>
+        <yIndex>4</yIndex>
+        <yBit>6</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>6</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.6</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="83">
+        <valueType>0</valueType>
+        <yIndex>4</yIndex>
+        <yBit>7</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>7</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.7</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="84">
+        <valueType>0</valueType>
+        <yIndex>4</yIndex>
+        <yBit>8</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>8</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.8</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="85">
+        <valueType>0</valueType>
+        <yIndex>4</yIndex>
+        <yBit>9</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>9</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.9</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="86">
+        <valueType>0</valueType>
+        <yIndex>4</yIndex>
+        <yBit>10</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>10</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.10</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="87">
+        <valueType>0</valueType>
+        <yIndex>4</yIndex>
+        <yBit>11</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>11</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.11</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="88">
+        <valueType>0</valueType>
+        <yIndex>4</yIndex>
+        <yBit>12</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>12</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.12</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="89">
+        <valueType>0</valueType>
+        <yIndex>4</yIndex>
+        <yBit>13</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>13</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.13</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="90">
+        <valueType>0</valueType>
+        <yIndex>4</yIndex>
+        <yBit>14</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>14</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.14</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="91">
+        <valueType>0</valueType>
+        <yIndex>4</yIndex>
+        <yBit>15</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>15</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.15</comment>
+	</PlcDoYConfig>
+	
+	<PlcDoYConfig id="92">
+        <valueType>0</valueType>
+        <yIndex>5</yIndex>
+        <yBit>0</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>16</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.16</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="93">
+        <valueType>0</valueType>
+        <yIndex>5</yIndex>
+        <yBit>1</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>17</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.17</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="94">
+        <valueType>0</valueType>
+        <yIndex>5</yIndex>
+        <yBit>2</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>18</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.18</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="95">
+        <valueType>0</valueType>
+        <yIndex>5</yIndex>
+        <yBit>3</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>19</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.19</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="96">
+        <valueType>0</valueType>
+        <yIndex>5</yIndex>
+        <yBit>4</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>20</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.20</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="97">
+        <valueType>0</valueType>
+        <yIndex>5</yIndex>
+        <yBit>5</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>21</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.21</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="98">
+        <valueType>0</valueType>
+        <yIndex>5</yIndex>
+        <yBit>6</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>22</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.22</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="99">
+        <valueType>0</valueType>
+        <yIndex>5</yIndex>
+        <yBit>7</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>23</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.23</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="100">
+        <valueType>0</valueType>
+        <yIndex>5</yIndex>
+        <yBit>8</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>24</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.24</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="101">
+        <valueType>0</valueType>
+        <yIndex>5</yIndex>
+        <yBit>9</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>25</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.25</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="102">
+        <valueType>0</valueType>
+        <yIndex>5</yIndex>
+        <yBit>10</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>26</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.26</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="103">
+        <valueType>0</valueType>
+        <yIndex>5</yIndex>
+        <yBit>11</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>27</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.27</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="104">
+        <valueType>0</valueType>
+        <yIndex>5</yIndex>
+        <yBit>12</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>28</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.28</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="105">
+        <valueType>0</valueType>
+        <yIndex>5</yIndex>
+        <yBit>13</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>29</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.29</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="106">
+        <valueType>0</valueType>
+        <yIndex>5</yIndex>
+        <yBit>14</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>30</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.30</comment>
+	</PlcDoYConfig>
+	<PlcDoYConfig id="107">
+        <valueType>0</valueType>
+        <yIndex>5</yIndex>
+        <yBit>15</yBit>
+        <doEnable>1</doEnable>
+        <doType>2</doType>
+        <doIndex>31</doIndex>
+        <doSense>1</doSense>
+        <comment>扩展DO2.31</comment>
+	</PlcDoYConfig>
+	
+</SystemPlcDoYConfig>

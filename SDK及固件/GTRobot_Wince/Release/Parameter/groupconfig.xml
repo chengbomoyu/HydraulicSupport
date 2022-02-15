@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GroupParameter version="2.1.0.0">
+    <Group id="0">
+        <EStopDec id="301601" name="紧急停止减速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="用于急停报警、伺服报警、限位触发等情况；紧急停止减速度须大于所有运动类型的最大加速度">10000</EStopDec>
+        <EStopJerk id="301602" name="紧急停止加加速度" min="0" max="99999" unit="毫米/秒^3" apply_time="立即生效" info="紧急停止加加速度须大于所有运动类型的最大加加速度">1000</EStopJerk>
+        <LaRadiusRatio id="302404" name="前瞻圆弧系数" min="0" max="99999" unit="无" apply_time="立即生效" info="前瞻圆弧系数用于调整过圆弧的速度。系数越低，圆弧处的目标速度越低；反之，系数越高，圆弧处的速度越高。">20</LaRadiusRatio>
+        <LaSegNum id="302402" name="前瞻段数" min="0" max="2000" unit="无" apply_time="立即生效" info="一般设置为500">500</LaSegNum>
+        <LaTime id="302403" name="前瞻转角系数" min="0" max="99999" unit="无" apply_time="立即生效" info="前瞻转角系数用于调整过转角的速度。系数越低，转角速度越低，转角处轮廓精度越高；反之，系数越高，转角速度越高，转角处轮廓精度越低。">20</LaTime>
+        <acsNegaLmtOffset1 id="304201" name="ACS下轴1负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset1>
+        <acsNegaLmtOffset2 id="304202" name="ACS下轴2负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset2>
+        <acsNegaLmtOffset3 id="304203" name="ACS下轴3负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset3>
+        <acsNegaLmtOffset4 id="304204" name="ACS下轴4负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset4>
+        <acsNegaLmtOffset5 id="304205" name="ACS下轴5负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset5>
+        <acsNegaLmtOffset6 id="304206" name="ACS下轴6负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset6>
+        <acsNegaLmtOffset7 id="304207" name="ACS下轴7负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset7>
+        <acsNegaLmtOffset8 id="304208" name="ACS下轴8负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset8>
+        <acsNegaLmtValue1 id="303601" name="ACS下轴1负向软限位值 " min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue1>
+        <acsNegaLmtValue2 id="303602" name="ACS下轴2负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue2>
+        <acsNegaLmtValue3 id="303603" name="ACS下轴3负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue3>
+        <acsNegaLmtValue4 id="303604" name="ACS下轴4负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue4>
+        <acsNegaLmtValue5 id="303605" name="ACS下轴5负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue5>
+        <acsNegaLmtValue6 id="303606" name="ACS下轴6负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue6>
+        <acsNegaLmtValue7 id="303607" name="ACS下轴7负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue7>
+        <acsNegaLmtValue8 id="303608" name="ACS下轴8负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue8>
+        <acsPosiLmtOffset1 id="304101" name="ACS下轴1正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset1>
+        <acsPosiLmtOffset2 id="304102" name="ACS下轴2正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset2>
+        <acsPosiLmtOffset3 id="304103" name="ACS下轴3正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset3>
+        <acsPosiLmtOffset4 id="304104" name="ACS下轴4正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset4>
+        <acsPosiLmtOffset5 id="304105" name="ACS下轴5正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset5>
+        <acsPosiLmtOffset6 id="304106" name="ACS下轴6正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset6>
+        <acsPosiLmtOffset7 id="304107" name="ACS下轴7正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset7>
+        <acsPosiLmtOffset8 id="304108" name="ACS下轴8正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset8>
+        <acsPosiLmtValue1 id="303501" name="ACS下轴1正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue1>
+        <acsPosiLmtValue2 id="303502" name="ACS下轴2正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue2>
+        <acsPosiLmtValue3 id="303503" name="ACS下轴3正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue3>
+        <acsPosiLmtValue4 id="303504" name="ACS下轴4正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue4>
+        <acsPosiLmtValue5 id="303505" name="ACS下轴5正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue5>
+        <acsPosiLmtValue6 id="303506" name="ACS下轴6正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue6>
+        <acsPosiLmtValue7 id="303507" name="ACS下轴7正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue7>
+        <acsPosiLmtValue8 id="303508" name="ACS下轴8正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue8>
+        <acsVelMode id="302901" name="ACS速度模式" min="0" max="1" unit="无" apply_time="立即生效" info="0=组速度、加速度约束模式，1=各轴速度、加速度约束模式。$$【组速度、加速度约束模式】：回放模式下，MOVJ指令的目标速度为组参数中的[301201~MOVJ指令默认速度]的百分比：$目标运行速度=[301201~MOVJ指令的默认速度]  * 全局速度倍率 * SPEED指令倍率 * MOVJ指令的速度百分比$注意：MOVJ的实际运行速度受到轴参数中[402001~最大速度]的约束。$$【各轴速度、加速度约束模式】：回放模式下，MOVJ指令的目标速度为轴参数中[402001~最大速度]的百分比：$目标运行速度=[402001~最大速度] * 全局速度倍率 * SPEED指令倍率 * MOVJ指令的速度百分比$注意：MOVJ的实际运行速度受到组参数中[301201~MOVJ指令的默认速度] 的约束">0</acsVelMode>
+        <arcErr id="303001" name="MOVC圆弧最大误差" min="0" max="1" unit="无" apply_time="立即生效" info="圆弧运动中断后恢复运动，若停止位置与圆弧指令轨迹的位置偏差大于此值，机器人系统报错">0</arcErr>
+        <bEnAcsNegaLmt1 id="303201" name="ACS下轴1开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt1>
+        <bEnAcsNegaLmt2 id="303202" name="ACS下轴2开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt2>
+        <bEnAcsNegaLmt3 id="303203" name="ACS下轴3开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt3>
+        <bEnAcsNegaLmt4 id="303204" name="ACS下轴4开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt4>
+        <bEnAcsNegaLmt5 id="303205" name="ACS下轴5开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt5>
+        <bEnAcsNegaLmt6 id="303206" name="ACS下轴6开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt6>
+        <bEnAcsNegaLmt7 id="303207" name="ACS下轴7开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt7>
+        <bEnAcsNegaLmt8 id="303208" name="ACS下轴8开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt8>
+        <bEnAcsPosiLmt1 id="303101" name="ACS下轴1开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt1>
+        <bEnAcsPosiLmt2 id="303102" name="ACS下轴2开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt2>
+        <bEnAcsPosiLmt3 id="303103" name="ACS下轴3开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt3>
+        <bEnAcsPosiLmt4 id="303104" name="ACS下轴4开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt4>
+        <bEnAcsPosiLmt5 id="303105" name="ACS下轴5开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt5>
+        <bEnAcsPosiLmt6 id="303106" name="ACS下轴6开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt6>
+        <bEnAcsPosiLmt7 id="303107" name="ACS下轴7开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt7>
+        <bEnAcsPosiLmt8 id="303108" name="ACS下轴8开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt8>
+        <bEnBlending id="302601" name="开启轨迹平滑过渡" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启；若关闭，示教程序中的BL无效">1</bEnBlending>
+        <bEnMcsNegaLmt1 id="303304" name="MCS下轴X开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnMcsNegaLmt1>
+        <bEnMcsNegaLmt2 id="303305" name="MCS下轴Y开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnMcsNegaLmt2>
+        <bEnMcsNegaLmt3 id="303306" name="MCS下轴Z开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnMcsNegaLmt3>
+        <bEnMcsPosiLmt1 id="303301" name="MCS下轴X开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnMcsPosiLmt1>
+        <bEnMcsPosiLmt2 id="303302" name="MCS下轴Y开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnMcsPosiLmt2>
+        <bEnMcsPosiLmt3 id="303303" name="MCS下轴Z开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnMcsPosiLmt3>
+        <bEnPcsNegaLmt1 id="303404" name="PCS下轴X开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnPcsNegaLmt1>
+        <bEnPcsNegaLmt2 id="303405" name="PCS下轴Y开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnPcsNegaLmt2>
+        <bEnPcsNegaLmt3 id="303406" name="PCS下轴Z开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnPcsNegaLmt3>
+        <bEnPcsPosiLmt1 id="303401" name="PCS下轴X开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnPcsPosiLmt1>
+        <bEnPcsPosiLmt2 id="303402" name="PCS下轴Y开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnPcsPosiLmt2>
+        <bEnPcsPosiLmt3 id="303403" name="PCS下轴Z开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnPcsPosiLmt3>
+        <bEnableLookAhead id="302401" name="开启前瞻" min="0" max="1" unit="无" apply_time="立即生效" info="0=前瞻关闭，1=前瞻开启.$在数控加工、机器人焊接等应用中，加工轨迹为大量连续的小线段，为避免零起零降带来的低效率加工，或者不减速带来的运动冲击，控制器的前瞻模块会自动根据运动机构能够承受的冲击以尽可能高的速度进行加工。">1</bEnableLookAhead>
+        <blendMaxAngle id="302605" name="轨迹平滑过渡最大角度" min="0" max="360" unit="度" apply_time="立即生效" info="预留，暂不生效">160</blendMaxAngle>
+        <blendMinAngle id="302604" name="轨迹平滑过渡最小角度" min="0" max="360" unit="度" apply_time="立即生效" info="预留，暂不生效">30</blendMinAngle>
+        <blendPara id="302606" name="轨迹平滑过渡段参数" min="0" max="99999" unit="无" apply_time="立即生效" info="预留，暂不生效">0</blendPara>
+        <blendPrmType id="302603" name="轨迹平滑过渡约束类型" min="0" max="2" unit="无" apply_time="立即生效" info="预留，暂不生效">2</blendPrmType>
+        <blendType id="302602" name="轨迹平滑过渡类型" min="0" max="2" unit="无" apply_time="立即生效" info="0=不处理，1=圆弧轨迹平滑过渡，2=双圆弧轨迹平滑过渡">1</blendType>
+        <cpAccMax id="301102" name="笛卡尔坐标系下最大加速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="合成方向上的最大加速度，在示教与回放模式均有效">3000</cpAccMax>
+        <cpDecMax id="301103" name="笛卡尔坐标系下最大减速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="合成方向上的最大减速度，在示教与回放模式均有效">6000</cpDecMax>
+        <cpGroupMoveType1 id="302201" name="示教器X+/X-键映射关系" min="0" max="6" unit="无" apply_time="立即生效" info="0=不配置，1=X轴，2=Y轴，3=Z轴，4=RX轴，5=RY轴，6=RZ轴。$例：若设置为2，则按下示教器上X+时，实际运动方向为笛卡尔坐标系的Y轴正方向。$$注意：[302201] - [302206] 规定的示教器X、Y、Z、RX、RY、RZ键映射关系不可重复！">1</cpGroupMoveType1>
+        <cpGroupMoveType2 id="302202" name="示教器Y+/Y-键映射关系" min="0" max="6" unit="无" apply_time="立即生效" info="0=不配置，1=X轴，2=Y轴，3=Z轴，4=RX轴，5=RY轴，6=RZ轴。$例：若设置为2，则按下示教器上Y+时，实际运动方向为笛卡尔坐标系的Y轴正方向。$$注意：[302201] - [302206] 规定的示教器X、Y、Z、RX、RY、RZ键映射关系不可重复！">2</cpGroupMoveType2>
+        <cpGroupMoveType3 id="302203" name="示教器Z+/Z-键映射关系" min="0" max="6" unit="无" apply_time="立即生效" info="0=不配置，1=X轴，2=Y轴，3=Z轴，4=RX轴，5=RY轴，6=RZ轴。$例：若设置为2，则按下示教器上Z+时，实际运动方向为笛卡尔坐标系的Y轴正方向。$$注意：[302201] - [302206] 规定的示教器X、Y、Z、RX、RY、RZ键映射关系不可重复！">3</cpGroupMoveType3>
+        <cpGroupMoveType4 id="302204" name="示教器RX+/RX-键映射关系" min="0" max="6" unit="无" apply_time="立即生效" info="0=不配置，1=X轴，2=Y轴，3=Z轴，4=RX轴，5=RY轴，6=RZ轴。$例：若设置为2，则按下示教器上RX+时，实际运动方向为笛卡尔坐标系的Y轴正方向。$$注意：[302201] - [302206] 规定的示教器X、Y、Z、RX、RY、RZ键映射关系不可重复！">4</cpGroupMoveType4>
+        <cpGroupMoveType5 id="302205" name="示教器RY+/RY-键映射关系" min="0" max="6" unit="无" apply_time="立即生效" info="0=不配置，1=X轴，2=Y轴，3=Z轴，4=RX轴，5=RY轴，6=RZ轴；$例：若设置为2，则按下示教器上RY+时，实际运动方向为笛卡尔坐标系的Y轴正方向。$$注意：[302201] - [302206] 规定的示教器X、Y、Z、RX、RY、RZ键映射关系不可重复！">5</cpGroupMoveType5>
+        <cpGroupMoveType6 id="302206" name="示教器RZ+/RZ-键映射关系" min="0" max="6" unit="无" apply_time="立即生效" info="0=不配置，1=X轴，2=Y轴，3=Z轴，4=RX轴，5=RY轴，6=RZ轴。$例：若设置为2，则按下示教器上RZ+时，实际运动方向为笛卡尔坐标系的Y轴正方向。$$注意：[302201] - [302206] 规定的示教器X、Y、Z、RX、RY、RZ键映射关系不可重复！">6</cpGroupMoveType6>
+        <cpJerkMax id="301104" name="笛卡尔坐标系下最大加加速度" min="0" max="99999" unit="毫米/秒^3" apply_time="立即生效" info="合成方向上的最大加加速度，在示教与回放模式均有效">1000</cpJerkMax>
+        <cpOriAccMax id="301112" name="笛卡尔运动姿态旋转最大加速度" min="0" max="99999" unit="度/秒^2" apply_time="立即生效" info="姿态旋转的最大加速度，仅在回放模式均有效">35</cpOriAccMax>
+        <cpOriDecMax id="301113" name="笛卡尔运动姿态旋转最大减速度" min="0" max="99999" unit="度/秒^2" apply_time="立即生效" info="姿态旋转的最大减速度，仅在回放模式均有效">35</cpOriDecMax>
+        <cpOriJerkMax id="301114" name="笛卡尔运动姿态旋转最大加加速度" min="0" max="99999" unit="度/秒^3" apply_time="立即生效" info="姿态旋转的最大加加速度，仅在回放模式均有效">0</cpOriJerkMax>
+        <cpOriVelMax id="301111" name="笛卡尔运动姿态旋转最大速度" min="0" max="99999" unit="度/秒" apply_time="立即生效" info="姿态旋转的最大速度，仅在回放模式均有效">35</cpOriVelMax>
+        <cpVelMax id="301101" name="笛卡尔坐标系下最大速度" min="0" max="99999" unit="毫米/秒" apply_time="立即生效" info="合成方向上的最大速度，在示教与回放模式均有效">1000</cpVelMax>
+        <groupID id="301001" name="组号" min="1" max="3" unit="无" apply_time="重启生效" info="">1</groupID>
+        <jerkValue id="302701" name="Jerk模式的加加速度" min="0" max="99999" unit="毫米/秒^3" apply_time="立即生效" info="预留，暂不生效">30</jerkValue>
+        <maxOverride id="302801" name="最大倍率" min="10" max="150" unit="%" apply_time="立即生效" info="">100</maxOverride>
+        <mcsNegaLmtOffset1 id="304401" name="MCS下轴X负向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsNegaLmtOffset1>
+        <mcsNegaLmtOffset2 id="304402" name="MCS下轴Y负向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsNegaLmtOffset2>
+        <mcsNegaLmtOffset3 id="304403" name="MCS下轴Z负向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsNegaLmtOffset3>
+        <mcsNegaLmtValue1 id="303801" name="MCS下轴X负向软限位值" min="-99999" max="0" unit="毫米" apply_time="立即生效" info="">0</mcsNegaLmtValue1>
+        <mcsNegaLmtValue2 id="303802" name="MCS下轴Y负向软限位值" min="-99999" max="0" unit="毫米" apply_time="立即生效" info="">0</mcsNegaLmtValue2>
+        <mcsNegaLmtValue3 id="303803" name="MCS下轴Z负向软限位值" min="-99999" max="0" unit="毫米" apply_time="立即生效" info="">0</mcsNegaLmtValue3>
+        <mcsPosiLmtOffset3 id="304301" name="MCS下轴Z正向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsPosiLmtOffset3>
+        <mcsPosiLmtOffset3 id="304301" name="MCS下轴Z正向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsPosiLmtOffset3>
+        <mcsPosiLmtOffset3 id="304301" name="MCS下轴Z正向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsPosiLmtOffset3>
+        <mcsPosiLmtValue1 id="303701" name="MCS下轴X正向软限位值" min="0" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsPosiLmtValue1>
+        <mcsPosiLmtValue2 id="303702" name="MCS下轴Y正向软限位值" min="0" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsPosiLmtValue2>
+        <mcsPosiLmtValue3 id="303703" name="MCS下轴Z正向软限位值" min="0" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsPosiLmtValue3>
+        <movcAcc id="301402" name="MOVC指令默认加速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="示教程序中MOVC指令的默认加速度；目标运行加速度=[301402~MOVC指令的默认加速度] * DYN指令加速度百分比（ACC）">5000</movcAcc>
+        <movcDec id="301403" name="MOVC指令默认减速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="示教程序中MOVC指令的默认减速度；目标运行减速度=[301403~MOVC指令的默认减速度] * DYN指令减速度百分比（DEC）">5000</movcDec>
+        <movcVel id="301401" name="MOVC指令默认速度" min="0" max="99999" unit="毫米/秒" apply_time="立即生效" info="示教程序中MOVC指令的默认速度；目标运行速度=[301401~MOVC指令的默认速度]* 全局速度倍率 * SPEED指令倍率">1000</movcVel>
+        <movjAcc id="301202" name="MOVJ指令默认加速度" min="0" max="99999" unit="度/秒^2" apply_time="立即生效" info="示教程序中MOVJ指令的默认加速度；目标运行加速度=[301202~MOVJ指令的默认加速度] * DYN指令加速度百分比（ACC）">2000</movjAcc>
+        <movjDec id="301203" name="MOVJ指令默认减速度" min="0" max="99999" unit="度/秒^2" apply_time="立即生效" info="示教程序中MOVJ指令的默认减速度；目标运行减速度=[301203~MOVJ指令的默认减速度] * DYN指令减速度百分比（DEC）">4000</movjDec>
+        <movjVel id="301201" name="MOVJ指令默认速度" min="0" max="99999" unit="度/秒" apply_time="立即生效" info="示教程序中MOVJ指令的默认速度；目标运行速度=[301201~MOVJ指令的默认速度] * 全局速度倍率 * SPEED指令倍率 * MOVJ指令的速度百分比">600</movjVel>
+        <movlAcc id="301302" name="MOVL指令默认加速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="示教程序中MOVL指令的默认加速度；目标运行加速度=[301302~MOVL指令的默认加速度] * DYN指令加速度百分比（ACC）">10000</movlAcc>
+        <movlDec id="301303" name="MOVL指令默认减速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="示教程序中MOVL指令的默认减速度；目标运行减速度=[301303~MOVL指令的默认减速度] * DYN指令减速度百分比（DEC）">10000</movlDec>
+        <movlVel id="301301" name="MOVL指令默认速度" min="0" max="99999" unit="毫米/秒" apply_time="立即生效" info="示教程序中MOVL指令的默认速度；目标运行速度=[301301~MOVL指令的默认速度]* 全局速度倍率 * SPEED指令倍率">2000</movlVel>
+        <nGroupAxisNum id="301002" name="模型控制轴数" min="0" max="8" unit="无" apply_time="重启生效" info="">6</nGroupAxisNum>
+        <nKinType id="301003" name="机械结构类型" min="0" max="4" unit="无" apply_time="重启生效" info="0=标准正交三轴，2=机器人，3=五轴机床">2</nKinType>
+        <nRobotKinSubType id="301005" name="机器人子构型" min="0" max="10" unit="无" apply_time="重启生效" info="0=RRLR(标准型)，1=LRRR">0</nRobotKinSubType>
+        <nRobotKinType id="301004" name="机器人构型" min="0" max="4" unit="无" apply_time="重启生效" info="0=四轴SCARA机器人，1=六轴串联机器人，2=平行四连杆码垛机器人，3=不二越码垛机器人，4=变位机，10=六轴协作机器人">10</nRobotKinType>
+        <orientationMode id="302501" name="指令位置姿态描述" min="0" max="2" unit="无" apply_time="立即生效" info="0=无姿态描述，1=欧拉角姿态描述，2=四元数姿态描述">1</orientationMode>
+        <pcsNegaLmtOffset1 id="304601" name="PCS下轴X负向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsNegaLmtOffset1>
+        <pcsNegaLmtOffset2 id="304602" name="PCS下轴Y负向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsNegaLmtOffset2>
+        <pcsNegaLmtOffset3 id="304603" name="PCS下轴Z负向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsNegaLmtOffset3>
+        <pcsNegaLmtValue1 id="304001" name="PCS下轴X负向软限位值" min="-99999" max="0" unit="毫米" apply_time="立即生效" info="">0</pcsNegaLmtValue1>
+        <pcsNegaLmtValue2 id="304002" name="PCS下轴Y负向软限位值" min="-99999" max="0" unit="毫米" apply_time="立即生效" info="">0</pcsNegaLmtValue2>
+        <pcsNegaLmtValue3 id="304003" name="PCS下轴Z负向软限位值" min="-99999" max="0" unit="毫米" apply_time="立即生效" info="">0</pcsNegaLmtValue3>
+        <pcsPosiLmtOffset1 id="304501" name="PCS下轴X正向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsPosiLmtOffset1>
+        <pcsPosiLmtOffset2 id="304502" name="PCS下轴Y正向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsPosiLmtOffset2>
+        <pcsPosiLmtOffset3 id="304503" name="PCS下轴Z正向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsPosiLmtOffset3>
+        <pcsPosiLmtValue1 id="303901" name="PCS下轴X正向软限位值" min="0" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsPosiLmtValue1>
+        <pcsPosiLmtValue2 id="303902" name="PCS下轴Y正向软限位值" min="0" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsPosiLmtValue2>
+        <pcsPosiLmtValue3 id="303903" name="PCS下轴Z正向软限位值" min="0" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsPosiLmtValue3>
+        <profileMode id="302103" name="速度规划模式" min="0" max="2" unit="无" apply_time="立即生效" info="0=平滑模式，1=高阶平滑模式，2=Jerk模式(备用)">0</profileMode>
+        <smoothK id="302102" name="平滑系数" min="0" max="1000" unit="无" apply_time="立即生效" info="平滑系数越小，加减速段的运动曲线越平滑。">0</smoothK>
+        <smoothTime id="302101" name="平滑时间" min="0" max="512" unit="毫秒" apply_time="立即生效" info="平滑时间越长，加减速段的运动曲线越平滑。">0</smoothTime>
+        <stopDec id="301501" name="平滑停止减速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="">10000</stopDec>
+        <stopJerk id="301502" name="平滑停止加加速度" min="0" max="99999" unit="毫米/秒^3" apply_time="立即生效" info="">1000</stopJerk>
+        <teachAcsMovAcc id="301702" name="关节坐标系运动到点加速度" min="0" max="99999" unit="度/秒^2" apply_time="立即生效" info="前进检查、快捷回零、运动到点均使用此参数">600</teachAcsMovAcc>
+        <teachAcsMovDec id="301703" name="关节坐标系运动到点减速度" min="0" max="99999" unit="度/秒^2" apply_time="立即生效" info="前进检查、快捷回零、运动到点均使用此参数">600</teachAcsMovDec>
+        <teachAcsMovVel id="301701" name="关节坐标系运动到点速度" min="0" max="99999" unit="度/秒" apply_time="立即生效" info="前进检查、快捷回零、运动到点均使用此参数">200</teachAcsMovVel>
+        <teachMcsMovAcc id="301802" name="笛卡尔坐标系运动到点加速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="前进检查、快捷回零、运动到点均使用此参数">600</teachMcsMovAcc>
+        <teachMcsMovDec id="301803" name="笛卡尔坐标系运动到点减速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="前进检查、快捷回零、运动到点均使用此参数">600</teachMcsMovDec>
+        <teachMcsMovVel id="301801" name="笛卡尔坐标系运动到点速度" min="0" max="99999" unit="毫米/秒" apply_time="立即生效" info="前进检查、快捷回零、运动到点均使用此参数">300</teachMcsMovVel>
+    </Group>
+    <Group id="1">
+        <EStopDec id="301601" name="紧急停止减速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="用于急停报警、伺服报警、限位触发等情况；紧急停止减速度须大于所有运动类型的最大加速度">10001</EStopDec>
+        <EStopJerk id="301602" name="紧急停止加加速度" min="0" max="99999" unit="毫米/秒^3" apply_time="立即生效" info="紧急停止加加速度须大于所有运动类型的最大加加速度">1000</EStopJerk>
+        <LaRadiusRatio id="302404" name="前瞻圆弧系数" min="0" max="99999" unit="无" apply_time="立即生效" info="前瞻圆弧系数用于调整过圆弧的速度。系数越低，圆弧处的目标速度越低；反之，系数越高，圆弧处的速度越高。">10</LaRadiusRatio>
+        <LaSegNum id="302402" name="前瞻段数" min="0" max="2000" unit="无" apply_time="立即生效" info="一般设置为500">200</LaSegNum>
+        <LaTime id="302403" name="前瞻转角系数" min="0" max="99999" unit="无" apply_time="立即生效" info="前瞻转角系数用于调整过转角的速度。系数越低，转角速度越低，转角处轮廓精度越高；反之，系数越高，转角速度越高，转角处轮廓精度越低。">10</LaTime>
+        <acsNegaLmtOffset1 id="304201" name="ACS下轴1负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset1>
+        <acsNegaLmtOffset2 id="304202" name="ACS下轴2负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset2>
+        <acsNegaLmtOffset3 id="304203" name="ACS下轴3负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset3>
+        <acsNegaLmtOffset4 id="304204" name="ACS下轴4负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset4>
+        <acsNegaLmtOffset5 id="304205" name="ACS下轴5负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset5>
+        <acsNegaLmtOffset6 id="304206" name="ACS下轴6负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset6>
+        <acsNegaLmtOffset7 id="304207" name="ACS下轴7负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset7>
+        <acsNegaLmtOffset8 id="304208" name="ACS下轴8负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset8>
+        <acsNegaLmtValue1 id="303601" name="ACS下轴1负向软限位值 " min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue1>
+        <acsNegaLmtValue2 id="303602" name="ACS下轴2负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue2>
+        <acsNegaLmtValue3 id="303603" name="ACS下轴3负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue3>
+        <acsNegaLmtValue4 id="303604" name="ACS下轴4负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue4>
+        <acsNegaLmtValue5 id="303605" name="ACS下轴5负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue5>
+        <acsNegaLmtValue6 id="303606" name="ACS下轴6负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue6>
+        <acsNegaLmtValue7 id="303607" name="ACS下轴7负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue7>
+        <acsNegaLmtValue8 id="303608" name="ACS下轴8负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue8>
+        <acsPosiLmtOffset1 id="304101" name="ACS下轴1正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset1>
+        <acsPosiLmtOffset2 id="304102" name="ACS下轴2正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset2>
+        <acsPosiLmtOffset3 id="304103" name="ACS下轴3正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset3>
+        <acsPosiLmtOffset4 id="304104" name="ACS下轴4正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset4>
+        <acsPosiLmtOffset5 id="304105" name="ACS下轴5正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset5>
+        <acsPosiLmtOffset6 id="304106" name="ACS下轴6正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset6>
+        <acsPosiLmtOffset7 id="304107" name="ACS下轴7正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset7>
+        <acsPosiLmtOffset8 id="304108" name="ACS下轴8正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset8>
+        <acsPosiLmtValue1 id="303501" name="ACS下轴1正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue1>
+        <acsPosiLmtValue2 id="303502" name="ACS下轴2正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue2>
+        <acsPosiLmtValue3 id="303503" name="ACS下轴3正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue3>
+        <acsPosiLmtValue4 id="303504" name="ACS下轴4正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue4>
+        <acsPosiLmtValue5 id="303505" name="ACS下轴5正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue5>
+        <acsPosiLmtValue6 id="303506" name="ACS下轴6正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue6>
+        <acsPosiLmtValue7 id="303507" name="ACS下轴7正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue7>
+        <acsPosiLmtValue8 id="303508" name="ACS下轴8正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue8>
+        <acsVelMode id="302901" name="ACS速度模式" min="0" max="1" unit="无" apply_time="立即生效" info="0=组速度、加速度约束模式，1=各轴速度、加速度约束模式。$$【组速度、加速度约束模式】：回放模式下，MOVJ指令的目标速度为组参数中的[301201~MOVJ指令默认速度]的百分比：$目标运行速度=[301201~MOVJ指令的默认速度]  * 全局速度倍率 * SPEED指令倍率 * MOVJ指令的速度百分比$注意：MOVJ的实际运行速度受到轴参数中[402001~最大速度]的约束。$$【各轴速度、加速度约束模式】：回放模式下，MOVJ指令的目标速度为轴参数中[402001~最大速度]的百分比：$目标运行速度=[402001~最大速度] * 全局速度倍率 * SPEED指令倍率 * MOVJ指令的速度百分比$注意：MOVJ的实际运行速度受到组参数中[301201~MOVJ指令的默认速度] 的约束">0</acsVelMode>
+        <arcErr id="303001" name="MOVC圆弧最大误差" min="0" max="1" unit="无" apply_time="立即生效" info="圆弧运动中断后恢复运动，若停止位置与圆弧指令轨迹的位置偏差大于此值，机器人系统报错">0</arcErr>
+        <bEnAcsNegaLmt1 id="303201" name="ACS下轴1开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt1>
+        <bEnAcsNegaLmt2 id="303202" name="ACS下轴2开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt2>
+        <bEnAcsNegaLmt3 id="303203" name="ACS下轴3开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt3>
+        <bEnAcsNegaLmt4 id="303204" name="ACS下轴4开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt4>
+        <bEnAcsNegaLmt5 id="303205" name="ACS下轴5开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt5>
+        <bEnAcsNegaLmt6 id="303206" name="ACS下轴6开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt6>
+        <bEnAcsNegaLmt7 id="303207" name="ACS下轴7开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt7>
+        <bEnAcsNegaLmt8 id="303208" name="ACS下轴8开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt8>
+        <bEnAcsPosiLmt1 id="303101" name="ACS下轴1开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt1>
+        <bEnAcsPosiLmt2 id="303102" name="ACS下轴2开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt2>
+        <bEnAcsPosiLmt3 id="303103" name="ACS下轴3开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt3>
+        <bEnAcsPosiLmt4 id="303104" name="ACS下轴4开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt4>
+        <bEnAcsPosiLmt5 id="303105" name="ACS下轴5开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt5>
+        <bEnAcsPosiLmt6 id="303106" name="ACS下轴6开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt6>
+        <bEnAcsPosiLmt7 id="303107" name="ACS下轴7开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt7>
+        <bEnAcsPosiLmt8 id="303108" name="ACS下轴8开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt8>
+        <bEnBlending id="302601" name="开启轨迹平滑过渡" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启；若关闭，示教程序中的BL无效">1</bEnBlending>
+        <bEnMcsNegaLmt1 id="303304" name="MCS下轴X开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnMcsNegaLmt1>
+        <bEnMcsNegaLmt2 id="303305" name="MCS下轴Y开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnMcsNegaLmt2>
+        <bEnMcsNegaLmt3 id="303306" name="MCS下轴Z开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnMcsNegaLmt3>
+        <bEnMcsPosiLmt1 id="303301" name="MCS下轴X开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnMcsPosiLmt1>
+        <bEnMcsPosiLmt2 id="303302" name="MCS下轴Y开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnMcsPosiLmt2>
+        <bEnMcsPosiLmt3 id="303303" name="MCS下轴Z开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnMcsPosiLmt3>
+        <bEnPcsNegaLmt1 id="303404" name="PCS下轴X开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnPcsNegaLmt1>
+        <bEnPcsNegaLmt2 id="303405" name="PCS下轴Y开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnPcsNegaLmt2>
+        <bEnPcsNegaLmt3 id="303406" name="PCS下轴Z开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnPcsNegaLmt3>
+        <bEnPcsPosiLmt1 id="303401" name="PCS下轴X开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnPcsPosiLmt1>
+        <bEnPcsPosiLmt2 id="303402" name="PCS下轴Y开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnPcsPosiLmt2>
+        <bEnPcsPosiLmt3 id="303403" name="PCS下轴Z开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnPcsPosiLmt3>
+        <bEnableLookAhead id="302401" name="开启前瞻" min="0" max="1" unit="无" apply_time="立即生效" info="0=前瞻关闭，1=前瞻开启.$在数控加工、机器人焊接等应用中，加工轨迹为大量连续的小线段，为避免零起零降带来的低效率加工，或者不减速带来的运动冲击，控制器的前瞻模块会自动根据运动机构能够承受的冲击以尽可能高的速度进行加工。">1</bEnableLookAhead>
+        <blendMaxAngle id="302605" name="轨迹平滑过渡最大角度" min="0" max="360" unit="度" apply_time="立即生效" info="预留，暂不生效">120</blendMaxAngle>
+        <blendMinAngle id="302604" name="轨迹平滑过渡最小角度" min="0" max="360" unit="度" apply_time="立即生效" info="预留，暂不生效">30</blendMinAngle>
+        <blendPara id="302606" name="轨迹平滑过渡段参数" min="0" max="99999" unit="无" apply_time="立即生效" info="预留，暂不生效">0</blendPara>
+        <blendPrmType id="302603" name="轨迹平滑过渡约束类型" min="0" max="2" unit="无" apply_time="立即生效" info="预留，暂不生效">2</blendPrmType>
+        <blendType id="302602" name="轨迹平滑过渡类型" min="0" max="2" unit="无" apply_time="立即生效" info="0=不处理，1=圆弧轨迹平滑过渡，2=双圆弧轨迹平滑过渡">-118</blendType>
+        <cpAccMax id="301102" name="笛卡尔坐标系下最大加速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="合成方向上的最大加速度，在示教与回放模式均有效">1000</cpAccMax>
+        <cpDecMax id="301103" name="笛卡尔坐标系下最大减速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="合成方向上的最大减速度，在示教与回放模式均有效">1000</cpDecMax>
+        <cpGroupMoveType1 id="302201" name="示教器X+/X-键映射关系" min="0" max="6" unit="无" apply_time="立即生效" info="0=不配置，1=X轴，2=Y轴，3=Z轴，4=RX轴，5=RY轴，6=RZ轴。$例：若设置为2，则按下示教器上X+时，实际运动方向为笛卡尔坐标系的Y轴正方向。$$注意：[302201] - [302206] 规定的示教器X、Y、Z、RX、RY、RZ键映射关系不可重复！">1</cpGroupMoveType1>
+        <cpGroupMoveType2 id="302202" name="示教器Y+/Y-键映射关系" min="0" max="6" unit="无" apply_time="立即生效" info="0=不配置，1=X轴，2=Y轴，3=Z轴，4=RX轴，5=RY轴，6=RZ轴。$例：若设置为2，则按下示教器上Y+时，实际运动方向为笛卡尔坐标系的Y轴正方向。$$注意：[302201] - [302206] 规定的示教器X、Y、Z、RX、RY、RZ键映射关系不可重复！">2</cpGroupMoveType2>
+        <cpGroupMoveType3 id="302203" name="示教器Z+/Z-键映射关系" min="0" max="6" unit="无" apply_time="立即生效" info="0=不配置，1=X轴，2=Y轴，3=Z轴，4=RX轴，5=RY轴，6=RZ轴。$例：若设置为2，则按下示教器上Z+时，实际运动方向为笛卡尔坐标系的Y轴正方向。$$注意：[302201] - [302206] 规定的示教器X、Y、Z、RX、RY、RZ键映射关系不可重复！">3</cpGroupMoveType3>
+        <cpGroupMoveType4 id="302204" name="示教器RX+/RX-键映射关系" min="0" max="6" unit="无" apply_time="立即生效" info="0=不配置，1=X轴，2=Y轴，3=Z轴，4=RX轴，5=RY轴，6=RZ轴。$例：若设置为2，则按下示教器上RX+时，实际运动方向为笛卡尔坐标系的Y轴正方向。$$注意：[302201] - [302206] 规定的示教器X、Y、Z、RX、RY、RZ键映射关系不可重复！">4</cpGroupMoveType4>
+        <cpGroupMoveType5 id="302205" name="示教器RY+/RY-键映射关系" min="0" max="6" unit="无" apply_time="立即生效" info="0=不配置，1=X轴，2=Y轴，3=Z轴，4=RX轴，5=RY轴，6=RZ轴；$例：若设置为2，则按下示教器上RY+时，实际运动方向为笛卡尔坐标系的Y轴正方向。$$注意：[302201] - [302206] 规定的示教器X、Y、Z、RX、RY、RZ键映射关系不可重复！">5</cpGroupMoveType5>
+        <cpGroupMoveType6 id="302206" name="示教器RZ+/RZ-键映射关系" min="0" max="6" unit="无" apply_time="立即生效" info="0=不配置，1=X轴，2=Y轴，3=Z轴，4=RX轴，5=RY轴，6=RZ轴。$例：若设置为2，则按下示教器上RZ+时，实际运动方向为笛卡尔坐标系的Y轴正方向。$$注意：[302201] - [302206] 规定的示教器X、Y、Z、RX、RY、RZ键映射关系不可重复！">6</cpGroupMoveType6>
+        <cpJerkMax id="301104" name="笛卡尔坐标系下最大加加速度" min="0" max="99999" unit="毫米/秒^3" apply_time="立即生效" info="合成方向上的最大加加速度，在示教与回放模式均有效">1000</cpJerkMax>
+        <cpOriAccMax id="301112" name="笛卡尔运动姿态旋转最大加速度" min="0" max="99999" unit="度/秒^2" apply_time="立即生效" info="姿态旋转的最大加速度，仅在回放模式均有效">30</cpOriAccMax>
+        <cpOriDecMax id="301113" name="笛卡尔运动姿态旋转最大减速度" min="0" max="99999" unit="度/秒^2" apply_time="立即生效" info="姿态旋转的最大减速度，仅在回放模式均有效">30</cpOriDecMax>
+        <cpOriJerkMax id="301114" name="笛卡尔运动姿态旋转最大加加速度" min="0" max="99999" unit="度/秒^3" apply_time="立即生效" info="姿态旋转的最大加加速度，仅在回放模式均有效">0</cpOriJerkMax>
+        <cpOriVelMax id="301111" name="笛卡尔运动姿态旋转最大速度" min="0" max="99999" unit="度/秒" apply_time="立即生效" info="姿态旋转的最大速度，仅在回放模式均有效">30</cpOriVelMax>
+        <cpVelMax id="301101" name="笛卡尔坐标系下最大速度" min="0" max="99999" unit="毫米/秒" apply_time="立即生效" info="合成方向上的最大速度，在示教与回放模式均有效">500</cpVelMax>
+        <groupID id="301001" name="组号" min="1" max="3" unit="无" apply_time="重启生效" info="">2</groupID>
+        <jerkValue id="302701" name="Jerk模式的加加速度" min="0" max="99999" unit="毫米/秒^3" apply_time="立即生效" info="预留，暂不生效">30</jerkValue>
+        <maxOverride id="302801" name="最大倍率" min="10" max="150" unit="%" apply_time="立即生效" info="">100</maxOverride>
+        <mcsNegaLmtOffset1 id="304401" name="MCS下轴X负向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsNegaLmtOffset1>
+        <mcsNegaLmtOffset2 id="304402" name="MCS下轴Y负向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsNegaLmtOffset2>
+        <mcsNegaLmtOffset3 id="304403" name="MCS下轴Z负向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsNegaLmtOffset3>
+        <mcsNegaLmtValue1 id="303801" name="MCS下轴X负向软限位值" min="-99999" max="0" unit="毫米" apply_time="立即生效" info="">0</mcsNegaLmtValue1>
+        <mcsNegaLmtValue2 id="303802" name="MCS下轴Y负向软限位值" min="-99999" max="0" unit="毫米" apply_time="立即生效" info="">0</mcsNegaLmtValue2>
+        <mcsNegaLmtValue3 id="303803" name="MCS下轴Z负向软限位值" min="-99999" max="0" unit="毫米" apply_time="立即生效" info="">0</mcsNegaLmtValue3>
+        <mcsPosiLmtOffset3 id="304301" name="MCS下轴Z正向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsPosiLmtOffset3>
+        <mcsPosiLmtOffset3 id="304301" name="MCS下轴Z正向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsPosiLmtOffset3>
+        <mcsPosiLmtOffset3 id="304301" name="MCS下轴Z正向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsPosiLmtOffset3>
+        <mcsPosiLmtValue1 id="303701" name="MCS下轴X正向软限位值" min="0" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsPosiLmtValue1>
+        <mcsPosiLmtValue2 id="303702" name="MCS下轴Y正向软限位值" min="0" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsPosiLmtValue2>
+        <mcsPosiLmtValue3 id="303703" name="MCS下轴Z正向软限位值" min="0" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsPosiLmtValue3>
+        <movcAcc id="301402" name="MOVC指令默认加速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="示教程序中MOVC指令的默认加速度；目标运行加速度=[301402~MOVC指令的默认加速度] * DYN指令加速度百分比（ACC）">2000</movcAcc>
+        <movcDec id="301403" name="MOVC指令默认减速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="示教程序中MOVC指令的默认减速度；目标运行减速度=[301403~MOVC指令的默认减速度] * DYN指令减速度百分比（DEC）">2000</movcDec>
+        <movcVel id="301401" name="MOVC指令默认速度" min="0" max="99999" unit="毫米/秒" apply_time="立即生效" info="示教程序中MOVC指令的默认速度；目标运行速度=[301401~MOVC指令的默认速度]* 全局速度倍率 * SPEED指令倍率">600</movcVel>
+        <movjAcc id="301202" name="MOVJ指令默认加速度" min="0" max="99999" unit="度/秒^2" apply_time="立即生效" info="示教程序中MOVJ指令的默认加速度；目标运行加速度=[301202~MOVJ指令的默认加速度] * DYN指令加速度百分比（ACC）">1000</movjAcc>
+        <movjDec id="301203" name="MOVJ指令默认减速度" min="0" max="99999" unit="度/秒^2" apply_time="立即生效" info="示教程序中MOVJ指令的默认减速度；目标运行减速度=[301203~MOVJ指令的默认减速度] * DYN指令减速度百分比（DEC）">1000</movjDec>
+        <movjVel id="301201" name="MOVJ指令默认速度" min="0" max="99999" unit="度/秒" apply_time="立即生效" info="示教程序中MOVJ指令的默认速度；目标运行速度=[301201~MOVJ指令的默认速度] * 全局速度倍率 * SPEED指令倍率 * MOVJ指令的速度百分比">2000</movjVel>
+        <movlAcc id="301302" name="MOVL指令默认加速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="示教程序中MOVL指令的默认加速度；目标运行加速度=[301302~MOVL指令的默认加速度] * DYN指令加速度百分比（ACC）">2000</movlAcc>
+        <movlDec id="301303" name="MOVL指令默认减速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="示教程序中MOVL指令的默认减速度；目标运行减速度=[301303~MOVL指令的默认减速度] * DYN指令减速度百分比（DEC）">2000</movlDec>
+        <movlVel id="301301" name="MOVL指令默认速度" min="0" max="99999" unit="毫米/秒" apply_time="立即生效" info="示教程序中MOVL指令的默认速度；目标运行速度=[301301~MOVL指令的默认速度]* 全局速度倍率 * SPEED指令倍率">1000</movlVel>
+        <nGroupAxisNum id="301002" name="模型控制轴数" min="0" max="8" unit="无" apply_time="重启生效" info="">2</nGroupAxisNum>
+        <nKinType id="301003" name="机械结构类型" min="0" max="4" unit="无" apply_time="重启生效" info="0=标准正交三轴，2=机器人，3=五轴机床">0</nKinType>
+        <nRobotKinSubType id="301005" name="机器人子构型" min="0" max="10" unit="无" apply_time="重启生效" info="0=RRLR(标准型)，1=LRRR">0</nRobotKinSubType>
+        <nRobotKinType id="301004" name="机器人构型" min="0" max="4" unit="无" apply_time="重启生效" info="0=四轴SCARA机器人，1=六轴串联机器人，2=平行四连杆码垛机器人，3=不二越码垛机器人，4=变位机，10=六轴协作机器人">0</nRobotKinType>
+        <orientationMode id="302501" name="指令位置姿态描述" min="0" max="2" unit="无" apply_time="立即生效" info="0=无姿态描述，1=欧拉角姿态描述，2=四元数姿态描述">1</orientationMode>
+        <pcsNegaLmtOffset1 id="304601" name="PCS下轴X负向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsNegaLmtOffset1>
+        <pcsNegaLmtOffset2 id="304602" name="PCS下轴Y负向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsNegaLmtOffset2>
+        <pcsNegaLmtOffset3 id="304603" name="PCS下轴Z负向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsNegaLmtOffset3>
+        <pcsNegaLmtValue1 id="304001" name="PCS下轴X负向软限位值" min="-99999" max="0" unit="毫米" apply_time="立即生效" info="">0</pcsNegaLmtValue1>
+        <pcsNegaLmtValue2 id="304002" name="PCS下轴Y负向软限位值" min="-99999" max="0" unit="毫米" apply_time="立即生效" info="">0</pcsNegaLmtValue2>
+        <pcsNegaLmtValue3 id="304003" name="PCS下轴Z负向软限位值" min="-99999" max="0" unit="毫米" apply_time="立即生效" info="">0</pcsNegaLmtValue3>
+        <pcsPosiLmtOffset1 id="304501" name="PCS下轴X正向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsPosiLmtOffset1>
+        <pcsPosiLmtOffset2 id="304502" name="PCS下轴Y正向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsPosiLmtOffset2>
+        <pcsPosiLmtOffset3 id="304503" name="PCS下轴Z正向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsPosiLmtOffset3>
+        <pcsPosiLmtValue1 id="303901" name="PCS下轴X正向软限位值" min="0" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsPosiLmtValue1>
+        <pcsPosiLmtValue2 id="303902" name="PCS下轴Y正向软限位值" min="0" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsPosiLmtValue2>
+        <pcsPosiLmtValue3 id="303903" name="PCS下轴Z正向软限位值" min="0" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsPosiLmtValue3>
+        <profileMode id="302103" name="速度规划模式" min="0" max="2" unit="无" apply_time="立即生效" info="0=平滑模式，1=高阶平滑模式，2=Jerk模式(备用)">0</profileMode>
+        <smoothK id="302102" name="平滑系数" min="0" max="1000" unit="无" apply_time="立即生效" info="平滑系数越小，加减速段的运动曲线越平滑。">5</smoothK>
+        <smoothTime id="302101" name="平滑时间" min="0" max="512" unit="毫秒" apply_time="立即生效" info="平滑时间越长，加减速段的运动曲线越平滑。">300</smoothTime>
+        <stopDec id="301501" name="平滑停止减速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="">6000</stopDec>
+        <stopJerk id="301502" name="平滑停止加加速度" min="0" max="99999" unit="毫米/秒^3" apply_time="立即生效" info="">1000</stopJerk>
+        <teachAcsMovAcc id="301702" name="关节坐标系运动到点加速度" min="0" max="99999" unit="度/秒^2" apply_time="立即生效" info="前进检查、快捷回零、运动到点均使用此参数">1000</teachAcsMovAcc>
+        <teachAcsMovDec id="301703" name="关节坐标系运动到点减速度" min="0" max="99999" unit="度/秒^2" apply_time="立即生效" info="前进检查、快捷回零、运动到点均使用此参数">1000</teachAcsMovDec>
+        <teachAcsMovVel id="301701" name="关节坐标系运动到点速度" min="0" max="99999" unit="度/秒" apply_time="立即生效" info="前进检查、快捷回零、运动到点均使用此参数">200</teachAcsMovVel>
+        <teachMcsMovAcc id="301802" name="笛卡尔坐标系运动到点加速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="前进检查、快捷回零、运动到点均使用此参数">1000</teachMcsMovAcc>
+        <teachMcsMovDec id="301803" name="笛卡尔坐标系运动到点减速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="前进检查、快捷回零、运动到点均使用此参数">1000</teachMcsMovDec>
+        <teachMcsMovVel id="301801" name="笛卡尔坐标系运动到点速度" min="0" max="99999" unit="毫米/秒" apply_time="立即生效" info="前进检查、快捷回零、运动到点均使用此参数">200</teachMcsMovVel>
+    </Group>
+    <Group id="2">
+        <EStopDec id="301601" name="紧急停止减速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="用于急停报警、伺服报警、限位触发等情况；紧急停止减速度须大于所有运动类型的最大加速度">10001</EStopDec>
+        <EStopJerk id="301602" name="紧急停止加加速度" min="0" max="99999" unit="毫米/秒^3" apply_time="立即生效" info="紧急停止加加速度须大于所有运动类型的最大加加速度">1000</EStopJerk>
+        <LaRadiusRatio id="302404" name="前瞻圆弧系数" min="0" max="99999" unit="无" apply_time="立即生效" info="前瞻圆弧系数用于调整过圆弧的速度。系数越低，圆弧处的目标速度越低；反之，系数越高，圆弧处的速度越高。">10</LaRadiusRatio>
+        <LaSegNum id="302402" name="前瞻段数" min="0" max="2000" unit="无" apply_time="立即生效" info="一般设置为500">200</LaSegNum>
+        <LaTime id="302403" name="前瞻转角系数" min="0" max="99999" unit="无" apply_time="立即生效" info="前瞻转角系数用于调整过转角的速度。系数越低，转角速度越低，转角处轮廓精度越高；反之，系数越高，转角速度越高，转角处轮廓精度越低。">10</LaTime>
+        <acsNegaLmtOffset1 id="304201" name="ACS下轴1负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset1>
+        <acsNegaLmtOffset2 id="304202" name="ACS下轴2负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset2>
+        <acsNegaLmtOffset3 id="304203" name="ACS下轴3负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset3>
+        <acsNegaLmtOffset4 id="304204" name="ACS下轴4负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset4>
+        <acsNegaLmtOffset5 id="304205" name="ACS下轴5负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset5>
+        <acsNegaLmtOffset6 id="304206" name="ACS下轴6负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset6>
+        <acsNegaLmtOffset7 id="304207" name="ACS下轴7负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset7>
+        <acsNegaLmtOffset8 id="304208" name="ACS下轴8负向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsNegaLmtOffset8>
+        <acsNegaLmtValue1 id="303601" name="ACS下轴1负向软限位值 " min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue1>
+        <acsNegaLmtValue2 id="303602" name="ACS下轴2负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue2>
+        <acsNegaLmtValue3 id="303603" name="ACS下轴3负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue3>
+        <acsNegaLmtValue4 id="303604" name="ACS下轴4负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue4>
+        <acsNegaLmtValue5 id="303605" name="ACS下轴5负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue5>
+        <acsNegaLmtValue6 id="303606" name="ACS下轴6负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue6>
+        <acsNegaLmtValue7 id="303607" name="ACS下轴7负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue7>
+        <acsNegaLmtValue8 id="303608" name="ACS下轴8负向软限位值" min="-99999" max="0" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsNegaLmtValue8>
+        <acsPosiLmtOffset1 id="304101" name="ACS下轴1正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset1>
+        <acsPosiLmtOffset2 id="304102" name="ACS下轴2正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset2>
+        <acsPosiLmtOffset3 id="304103" name="ACS下轴3正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset3>
+        <acsPosiLmtOffset4 id="304104" name="ACS下轴4正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset4>
+        <acsPosiLmtOffset5 id="304105" name="ACS下轴5正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset5>
+        <acsPosiLmtOffset6 id="304106" name="ACS下轴6正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset6>
+        <acsPosiLmtOffset7 id="304107" name="ACS下轴7正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset7>
+        <acsPosiLmtOffset8 id="304108" name="ACS下轴8正向软限位偏移值" min="-99999" max="99999" unit="度" apply_time="立即生效" info="">0</acsPosiLmtOffset8>
+        <acsPosiLmtValue1 id="303501" name="ACS下轴1正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue1>
+        <acsPosiLmtValue2 id="303502" name="ACS下轴2正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue2>
+        <acsPosiLmtValue3 id="303503" name="ACS下轴3正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue3>
+        <acsPosiLmtValue4 id="303504" name="ACS下轴4正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue4>
+        <acsPosiLmtValue5 id="303505" name="ACS下轴5正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue5>
+        <acsPosiLmtValue6 id="303506" name="ACS下轴6正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue6>
+        <acsPosiLmtValue7 id="303507" name="ACS下轴7正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue7>
+        <acsPosiLmtValue8 id="303508" name="ACS下轴8正向软限位值" min="0" max="99999" unit="度" apply_time="立即生效" info="ACS坐标系的位置与轴的规划位置不同。规划ACS坐标系的位置时，需包含[305301]~[305404]耦合比、[403302~反向间隙补偿值]等参数。">0</acsPosiLmtValue8>
+        <acsVelMode id="302901" name="ACS速度模式" min="0" max="1" unit="无" apply_time="立即生效" info="0=组速度、加速度约束模式，1=各轴速度、加速度约束模式。$$【组速度、加速度约束模式】：回放模式下，MOVJ指令的目标速度为组参数中的[301201~MOVJ指令默认速度]的百分比：$目标运行速度=[301201~MOVJ指令的默认速度]  * 全局速度倍率 * SPEED指令倍率 * MOVJ指令的速度百分比$注意：MOVJ的实际运行速度受到轴参数中[402001~最大速度]的约束。$$【各轴速度、加速度约束模式】：回放模式下，MOVJ指令的目标速度为轴参数中[402001~最大速度]的百分比：$目标运行速度=[402001~最大速度] * 全局速度倍率 * SPEED指令倍率 * MOVJ指令的速度百分比$注意：MOVJ的实际运行速度受到组参数中[301201~MOVJ指令的默认速度] 的约束">0</acsVelMode>
+        <arcErr id="303001" name="MOVC圆弧最大误差" min="0" max="1" unit="无" apply_time="立即生效" info="圆弧运动中断后恢复运动，若停止位置与圆弧指令轨迹的位置偏差大于此值，机器人系统报错">0</arcErr>
+        <bEnAcsNegaLmt1 id="303201" name="ACS下轴1开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt1>
+        <bEnAcsNegaLmt2 id="303202" name="ACS下轴2开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt2>
+        <bEnAcsNegaLmt3 id="303203" name="ACS下轴3开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt3>
+        <bEnAcsNegaLmt4 id="303204" name="ACS下轴4开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt4>
+        <bEnAcsNegaLmt5 id="303205" name="ACS下轴5开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt5>
+        <bEnAcsNegaLmt6 id="303206" name="ACS下轴6开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt6>
+        <bEnAcsNegaLmt7 id="303207" name="ACS下轴7开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt7>
+        <bEnAcsNegaLmt8 id="303208" name="ACS下轴8开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsNegaLmt8>
+        <bEnAcsPosiLmt1 id="303101" name="ACS下轴1开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt1>
+        <bEnAcsPosiLmt2 id="303102" name="ACS下轴2开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt2>
+        <bEnAcsPosiLmt3 id="303103" name="ACS下轴3开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt3>
+        <bEnAcsPosiLmt4 id="303104" name="ACS下轴4开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt4>
+        <bEnAcsPosiLmt5 id="303105" name="ACS下轴5开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt5>
+        <bEnAcsPosiLmt6 id="303106" name="ACS下轴6开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt6>
+        <bEnAcsPosiLmt7 id="303107" name="ACS下轴7开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt7>
+        <bEnAcsPosiLmt8 id="303108" name="ACS下轴8开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnAcsPosiLmt8>
+        <bEnBlending id="302601" name="开启轨迹平滑过渡" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启；若关闭，示教程序中的BL无效">1</bEnBlending>
+        <bEnMcsNegaLmt1 id="303304" name="MCS下轴X开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnMcsNegaLmt1>
+        <bEnMcsNegaLmt2 id="303305" name="MCS下轴Y开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnMcsNegaLmt2>
+        <bEnMcsNegaLmt3 id="303306" name="MCS下轴Z开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnMcsNegaLmt3>
+        <bEnMcsPosiLmt1 id="303301" name="MCS下轴X开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnMcsPosiLmt1>
+        <bEnMcsPosiLmt2 id="303302" name="MCS下轴Y开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnMcsPosiLmt2>
+        <bEnMcsPosiLmt3 id="303303" name="MCS下轴Z开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnMcsPosiLmt3>
+        <bEnPcsNegaLmt1 id="303404" name="PCS下轴X开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnPcsNegaLmt1>
+        <bEnPcsNegaLmt2 id="303405" name="PCS下轴Y开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnPcsNegaLmt2>
+        <bEnPcsNegaLmt3 id="303406" name="PCS下轴Z开启负向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnPcsNegaLmt3>
+        <bEnPcsPosiLmt1 id="303401" name="PCS下轴X开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnPcsPosiLmt1>
+        <bEnPcsPosiLmt2 id="303402" name="PCS下轴Y开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnPcsPosiLmt2>
+        <bEnPcsPosiLmt3 id="303403" name="PCS下轴Z开启正向软限位" min="0" max="1" unit="无" apply_time="立即生效" info="0=关闭，1=开启">0</bEnPcsPosiLmt3>
+        <bEnableLookAhead id="302401" name="开启前瞻" min="0" max="1" unit="无" apply_time="立即生效" info="0=前瞻关闭，1=前瞻开启.$在数控加工、机器人焊接等应用中，加工轨迹为大量连续的小线段，为避免零起零降带来的低效率加工，或者不减速带来的运动冲击，控制器的前瞻模块会自动根据运动机构能够承受的冲击以尽可能高的速度进行加工。">1</bEnableLookAhead>
+        <blendMaxAngle id="302605" name="轨迹平滑过渡最大角度" min="0" max="360" unit="度" apply_time="立即生效" info="预留，暂不生效">120</blendMaxAngle>
+        <blendMinAngle id="302604" name="轨迹平滑过渡最小角度" min="0" max="360" unit="度" apply_time="立即生效" info="预留，暂不生效">30</blendMinAngle>
+        <blendPara id="302606" name="轨迹平滑过渡段参数" min="0" max="99999" unit="无" apply_time="立即生效" info="预留，暂不生效">0</blendPara>
+        <blendPrmType id="302603" name="轨迹平滑过渡约束类型" min="0" max="2" unit="无" apply_time="立即生效" info="预留，暂不生效">2</blendPrmType>
+        <blendType id="302602" name="轨迹平滑过渡类型" min="0" max="2" unit="无" apply_time="立即生效" info="0=不处理，1=圆弧轨迹平滑过渡，2=双圆弧轨迹平滑过渡">-118</blendType>
+        <cpAccMax id="301102" name="笛卡尔坐标系下最大加速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="合成方向上的最大加速度，在示教与回放模式均有效">10000</cpAccMax>
+        <cpDecMax id="301103" name="笛卡尔坐标系下最大减速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="合成方向上的最大减速度，在示教与回放模式均有效">10000</cpDecMax>
+        <cpGroupMoveType1 id="302201" name="示教器X+/X-键映射关系" min="0" max="6" unit="无" apply_time="立即生效" info="0=不配置，1=X轴，2=Y轴，3=Z轴，4=RX轴，5=RY轴，6=RZ轴。$例：若设置为2，则按下示教器上X+时，实际运动方向为笛卡尔坐标系的Y轴正方向。$$注意：[302201] - [302206] 规定的示教器X、Y、Z、RX、RY、RZ键映射关系不可重复！">1</cpGroupMoveType1>
+        <cpGroupMoveType2 id="302202" name="示教器Y+/Y-键映射关系" min="0" max="6" unit="无" apply_time="立即生效" info="0=不配置，1=X轴，2=Y轴，3=Z轴，4=RX轴，5=RY轴，6=RZ轴。$例：若设置为2，则按下示教器上Y+时，实际运动方向为笛卡尔坐标系的Y轴正方向。$$注意：[302201] - [302206] 规定的示教器X、Y、Z、RX、RY、RZ键映射关系不可重复！">2</cpGroupMoveType2>
+        <cpGroupMoveType3 id="302203" name="示教器Z+/Z-键映射关系" min="0" max="6" unit="无" apply_time="立即生效" info="0=不配置，1=X轴，2=Y轴，3=Z轴，4=RX轴，5=RY轴，6=RZ轴。$例：若设置为2，则按下示教器上Z+时，实际运动方向为笛卡尔坐标系的Y轴正方向。$$注意：[302201] - [302206] 规定的示教器X、Y、Z、RX、RY、RZ键映射关系不可重复！">3</cpGroupMoveType3>
+        <cpGroupMoveType4 id="302204" name="示教器RX+/RX-键映射关系" min="0" max="6" unit="无" apply_time="立即生效" info="0=不配置，1=X轴，2=Y轴，3=Z轴，4=RX轴，5=RY轴，6=RZ轴。$例：若设置为2，则按下示教器上RX+时，实际运动方向为笛卡尔坐标系的Y轴正方向。$$注意：[302201] - [302206] 规定的示教器X、Y、Z、RX、RY、RZ键映射关系不可重复！">4</cpGroupMoveType4>
+        <cpGroupMoveType5 id="302205" name="示教器RY+/RY-键映射关系" min="0" max="6" unit="无" apply_time="立即生效" info="0=不配置，1=X轴，2=Y轴，3=Z轴，4=RX轴，5=RY轴，6=RZ轴；$例：若设置为2，则按下示教器上RY+时，实际运动方向为笛卡尔坐标系的Y轴正方向。$$注意：[302201] - [302206] 规定的示教器X、Y、Z、RX、RY、RZ键映射关系不可重复！">5</cpGroupMoveType5>
+        <cpGroupMoveType6 id="302206" name="示教器RZ+/RZ-键映射关系" min="0" max="6" unit="无" apply_time="立即生效" info="0=不配置，1=X轴，2=Y轴，3=Z轴，4=RX轴，5=RY轴，6=RZ轴。$例：若设置为2，则按下示教器上RZ+时，实际运动方向为笛卡尔坐标系的Y轴正方向。$$注意：[302201] - [302206] 规定的示教器X、Y、Z、RX、RY、RZ键映射关系不可重复！">6</cpGroupMoveType6>
+        <cpJerkMax id="301104" name="笛卡尔坐标系下最大加加速度" min="0" max="99999" unit="毫米/秒^3" apply_time="立即生效" info="合成方向上的最大加加速度，在示教与回放模式均有效">1000</cpJerkMax>
+        <cpOriAccMax id="301112" name="笛卡尔运动姿态旋转最大加速度" min="0" max="99999" unit="度/秒^2" apply_time="立即生效" info="姿态旋转的最大加速度，仅在回放模式均有效">30</cpOriAccMax>
+        <cpOriDecMax id="301113" name="笛卡尔运动姿态旋转最大减速度" min="0" max="99999" unit="度/秒^2" apply_time="立即生效" info="姿态旋转的最大减速度，仅在回放模式均有效">30</cpOriDecMax>
+        <cpOriJerkMax id="301114" name="笛卡尔运动姿态旋转最大加加速度" min="0" max="99999" unit="度/秒^3" apply_time="立即生效" info="姿态旋转的最大加加速度，仅在回放模式均有效">0</cpOriJerkMax>
+        <cpOriVelMax id="301111" name="笛卡尔运动姿态旋转最大速度" min="0" max="99999" unit="度/秒" apply_time="立即生效" info="姿态旋转的最大速度，仅在回放模式均有效">30</cpOriVelMax>
+        <cpVelMax id="301101" name="笛卡尔坐标系下最大速度" min="0" max="99999" unit="毫米/秒" apply_time="立即生效" info="合成方向上的最大速度，在示教与回放模式均有效">2000</cpVelMax>
+        <groupID id="301001" name="组号" min="1" max="3" unit="无" apply_time="重启生效" info="">2</groupID>
+        <jerkValue id="302701" name="Jerk模式的加加速度" min="0" max="99999" unit="毫米/秒^3" apply_time="立即生效" info="预留，暂不生效">30</jerkValue>
+        <maxOverride id="302801" name="最大倍率" min="10" max="150" unit="%" apply_time="立即生效" info="">100</maxOverride>
+        <mcsNegaLmtOffset1 id="304401" name="MCS下轴X负向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsNegaLmtOffset1>
+        <mcsNegaLmtOffset2 id="304402" name="MCS下轴Y负向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsNegaLmtOffset2>
+        <mcsNegaLmtOffset3 id="304403" name="MCS下轴Z负向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsNegaLmtOffset3>
+        <mcsNegaLmtValue1 id="303801" name="MCS下轴X负向软限位值" min="-99999" max="0" unit="毫米" apply_time="立即生效" info="">0</mcsNegaLmtValue1>
+        <mcsNegaLmtValue2 id="303802" name="MCS下轴Y负向软限位值" min="-99999" max="0" unit="毫米" apply_time="立即生效" info="">0</mcsNegaLmtValue2>
+        <mcsNegaLmtValue3 id="303803" name="MCS下轴Z负向软限位值" min="-99999" max="0" unit="毫米" apply_time="立即生效" info="">0</mcsNegaLmtValue3>
+        <mcsPosiLmtOffset3 id="304301" name="MCS下轴Z正向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsPosiLmtOffset3>
+        <mcsPosiLmtOffset3 id="304301" name="MCS下轴Z正向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsPosiLmtOffset3>
+        <mcsPosiLmtOffset3 id="304301" name="MCS下轴Z正向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsPosiLmtOffset3>
+        <mcsPosiLmtValue1 id="303701" name="MCS下轴X正向软限位值" min="0" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsPosiLmtValue1>
+        <mcsPosiLmtValue2 id="303702" name="MCS下轴Y正向软限位值" min="0" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsPosiLmtValue2>
+        <mcsPosiLmtValue3 id="303703" name="MCS下轴Z正向软限位值" min="0" max="99999" unit="毫米" apply_time="立即生效" info="">0</mcsPosiLmtValue3>
+        <movcAcc id="301402" name="MOVC指令默认加速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="示教程序中MOVC指令的默认加速度；目标运行加速度=[301402~MOVC指令的默认加速度] * DYN指令加速度百分比（ACC）">6000</movcAcc>
+        <movcDec id="301403" name="MOVC指令默认减速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="示教程序中MOVC指令的默认减速度；目标运行减速度=[301403~MOVC指令的默认减速度] * DYN指令减速度百分比（DEC）">6000</movcDec>
+        <movcVel id="301401" name="MOVC指令默认速度" min="0" max="99999" unit="毫米/秒" apply_time="立即生效" info="示教程序中MOVC指令的默认速度；目标运行速度=[301401~MOVC指令的默认速度]* 全局速度倍率 * SPEED指令倍率">2000</movcVel>
+        <movjAcc id="301202" name="MOVJ指令默认加速度" min="0" max="99999" unit="度/秒^2" apply_time="立即生效" info="示教程序中MOVJ指令的默认加速度；目标运行加速度=[301202~MOVJ指令的默认加速度] * DYN指令加速度百分比（ACC）">1500</movjAcc>
+        <movjDec id="301203" name="MOVJ指令默认减速度" min="0" max="99999" unit="度/秒^2" apply_time="立即生效" info="示教程序中MOVJ指令的默认减速度；目标运行减速度=[301203~MOVJ指令的默认减速度] * DYN指令减速度百分比（DEC）">1500</movjDec>
+        <movjVel id="301201" name="MOVJ指令默认速度" min="0" max="99999" unit="度/秒" apply_time="立即生效" info="示教程序中MOVJ指令的默认速度；目标运行速度=[301201~MOVJ指令的默认速度] * 全局速度倍率 * SPEED指令倍率 * MOVJ指令的速度百分比">500</movjVel>
+        <movlAcc id="301302" name="MOVL指令默认加速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="示教程序中MOVL指令的默认加速度；目标运行加速度=[301302~MOVL指令的默认加速度] * DYN指令加速度百分比（ACC）">6000</movlAcc>
+        <movlDec id="301303" name="MOVL指令默认减速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="示教程序中MOVL指令的默认减速度；目标运行减速度=[301303~MOVL指令的默认减速度] * DYN指令减速度百分比（DEC）">6000</movlDec>
+        <movlVel id="301301" name="MOVL指令默认速度" min="0" max="99999" unit="毫米/秒" apply_time="立即生效" info="示教程序中MOVL指令的默认速度；目标运行速度=[301301~MOVL指令的默认速度]* 全局速度倍率 * SPEED指令倍率">2000</movlVel>
+        <nGroupAxisNum id="301002" name="模型控制轴数" min="0" max="8" unit="无" apply_time="重启生效" info="">2</nGroupAxisNum>
+        <nKinType id="301003" name="机械结构类型" min="0" max="4" unit="无" apply_time="重启生效" info="0=标准正交三轴，2=机器人，3=五轴机床">2</nKinType>
+        <nRobotKinSubType id="301005" name="机器人子构型" min="0" max="10" unit="无" apply_time="重启生效" info="0=RRLR(标准型)，1=LRRR">10</nRobotKinSubType>
+        <nRobotKinType id="301004" name="机器人构型" min="0" max="4" unit="无" apply_time="重启生效" info="0=四轴SCARA机器人，1=六轴串联机器人，2=平行四连杆码垛机器人，3=不二越码垛机器人，4=变位机，10=六轴协作机器人">4</nRobotKinType>
+        <orientationMode id="302501" name="指令位置姿态描述" min="0" max="2" unit="无" apply_time="立即生效" info="0=无姿态描述，1=欧拉角姿态描述，2=四元数姿态描述">1</orientationMode>
+        <pcsNegaLmtOffset1 id="304601" name="PCS下轴X负向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsNegaLmtOffset1>
+        <pcsNegaLmtOffset2 id="304602" name="PCS下轴Y负向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsNegaLmtOffset2>
+        <pcsNegaLmtOffset3 id="304603" name="PCS下轴Z负向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsNegaLmtOffset3>
+        <pcsNegaLmtValue1 id="304001" name="PCS下轴X负向软限位值" min="-99999" max="0" unit="毫米" apply_time="立即生效" info="">0</pcsNegaLmtValue1>
+        <pcsNegaLmtValue2 id="304002" name="PCS下轴Y负向软限位值" min="-99999" max="0" unit="毫米" apply_time="立即生效" info="">0</pcsNegaLmtValue2>
+        <pcsNegaLmtValue3 id="304003" name="PCS下轴Z负向软限位值" min="-99999" max="0" unit="毫米" apply_time="立即生效" info="">0</pcsNegaLmtValue3>
+        <pcsPosiLmtOffset1 id="304501" name="PCS下轴X正向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsPosiLmtOffset1>
+        <pcsPosiLmtOffset2 id="304502" name="PCS下轴Y正向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsPosiLmtOffset2>
+        <pcsPosiLmtOffset3 id="304503" name="PCS下轴Z正向软限位偏移值" min="-99999" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsPosiLmtOffset3>
+        <pcsPosiLmtValue1 id="303901" name="PCS下轴X正向软限位值" min="0" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsPosiLmtValue1>
+        <pcsPosiLmtValue2 id="303902" name="PCS下轴Y正向软限位值" min="0" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsPosiLmtValue2>
+        <pcsPosiLmtValue3 id="303903" name="PCS下轴Z正向软限位值" min="0" max="99999" unit="毫米" apply_time="立即生效" info="">0</pcsPosiLmtValue3>
+        <profileMode id="302103" name="速度规划模式" min="0" max="2" unit="无" apply_time="立即生效" info="0=平滑模式，1=高阶平滑模式，2=Jerk模式(备用)">0</profileMode>
+        <smoothK id="302102" name="平滑系数" min="0" max="1000" unit="无" apply_time="立即生效" info="平滑系数越小，加减速段的运动曲线越平滑。">5</smoothK>
+        <smoothTime id="302101" name="平滑时间" min="0" max="512" unit="毫秒" apply_time="立即生效" info="平滑时间越长，加减速段的运动曲线越平滑。">500</smoothTime>
+        <stopDec id="301501" name="平滑停止减速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="">10001</stopDec>
+        <stopJerk id="301502" name="平滑停止加加速度" min="0" max="99999" unit="毫米/秒^3" apply_time="立即生效" info="">1000</stopJerk>
+        <teachAcsMovAcc id="301702" name="关节坐标系运动到点加速度" min="0" max="99999" unit="度/秒^2" apply_time="立即生效" info="前进检查、快捷回零、运动到点均使用此参数">120</teachAcsMovAcc>
+        <teachAcsMovDec id="301703" name="关节坐标系运动到点减速度" min="0" max="99999" unit="度/秒^2" apply_time="立即生效" info="前进检查、快捷回零、运动到点均使用此参数">120</teachAcsMovDec>
+        <teachAcsMovVel id="301701" name="关节坐标系运动到点速度" min="0" max="99999" unit="度/秒" apply_time="立即生效" info="前进检查、快捷回零、运动到点均使用此参数">40</teachAcsMovVel>
+        <teachMcsMovAcc id="301802" name="笛卡尔坐标系运动到点加速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="前进检查、快捷回零、运动到点均使用此参数">200</teachMcsMovAcc>
+        <teachMcsMovDec id="301803" name="笛卡尔坐标系运动到点减速度" min="0" max="99999" unit="毫米/秒^2" apply_time="立即生效" info="前进检查、快捷回零、运动到点均使用此参数">200</teachMcsMovDec>
+        <teachMcsMovVel id="301801" name="笛卡尔坐标系运动到点速度" min="0" max="99999" unit="毫米/秒" apply_time="立即生效" info="前进检查、快捷回零、运动到点均使用此参数">200</teachMcsMovVel>
+    </Group>
+</GroupParameter>

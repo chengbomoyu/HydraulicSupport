@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ZeroPosition>
+    <point channel="0">
+        <GroupPoint index="0">
+            <coordType>2</coordType>
+            <configNumber>7</configNumber>
+            <posType>0</posType>
+            <orientationMode>1</orientationMode>
+            <joint>-0.06411070 -0.12436200 -90.35780000 -0.34357900 -0.18169700 -0.02149520 0.00000000 0.00000000</joint>
+        </GroupPoint>
+        <GroupPoint index="1">
+            <coordType>2</coordType>
+            <configNumber>1</configNumber>
+            <posType>0</posType>
+            <orientationMode>1</orientationMode>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0 0</joint>
+        </GroupPoint>
+        <extJoint>0.11264100 1070.02000000 0 0 0 0 0 0</extJoint>
+        <comment>通道0</comment>
+    </point>
+    <point channel="1">
+        <GroupPoint index="0">
+            <coordType>2</coordType>
+            <configNumber>1</configNumber>
+            <posType>0</posType>
+            <orientationMode>1</orientationMode>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0 0</joint>
+        </GroupPoint>
+        <GroupPoint index="1">
+            <coordType>2</coordType>
+            <configNumber>1</configNumber>
+            <posType>0</posType>
+            <orientationMode>1</orientationMode>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0 0</joint>
+        </GroupPoint>
+        <extJoint>0 0 0 0 0 0 0 0</extJoint>
+        <comment>无</comment>
+    </point>
+</ZeroPosition>

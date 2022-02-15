@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Permission>
+<User name="Operator"> 
+  
+	<Application name = "工艺1" id="1">
+		<DllName>GtRobotPluginDll</DllName>
+		<MenuVis>1</MenuVis>
+		<Launch>1</Launch>
+		<Icon_menu>CRAFT.png</Icon_menu>
+		<Icon_common>CRAFT.png</Icon_common>
+		<Icon_craft>CRAFT.png</Icon_craft>
+	</Application>
+	
+</User> 
+  
+<User name="Manager"> 
+
+	<Application name = "工艺1" id="1">
+		<DllName>GtRobotPluginDll</DllName>
+		<MenuVis>1</MenuVis>
+		<Launch>1</Launch>
+		<Icon_menu>CRAFT.png</Icon_menu>
+		<Icon_common>CRAFT.png</Icon_common>
+		<Icon_craft>CRAFT.png</Icon_craft>
+	</Application>
+
+</User>
+
+<User name="Factory">
+	
+	<Application name = "工艺1" id="1">
+		<DllName>GtRobotPluginDll</DllName>
+		<MenuVis>1</MenuVis>
+		<Launch>1</Launch>
+		<Icon_menu>CRAFT.png</Icon_menu>
+		<Icon_common>CRAFT.png</Icon_common>
+		<Icon_craft>CRAFT.png</Icon_craft>
+	</Application>
+	
+</User>   
+</Permission>
+

@@ -17,7 +17,7 @@ Support::Support(QWidget *parent){
 	this->dValueKi = 0;
 	this->dValueKd = 0;
 	this->signal_slot_connect();
-	//PLC-PID压力调节
+	//	GTR_RegisterPlcLoop(1,bci_mymodbus_tcp2rtu_plc_looprun);looprunPLC-PID压力调节
 }
 Support::~Support(){
 }

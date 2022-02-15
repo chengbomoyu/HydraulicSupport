@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SystemChannelParameter>
+    <SysChannelCtrlParam channel="0">
+        <nGroupNo default="1" unit="无 无" id="201001" min="0" name="机器人1-Group索引" max="2" info="机器人1所在的Group,0表示不配置" enableType="重启">1</nGroupNo>
+        <nAuGroupNo default="0" unit="无 无" id="201002" min="0" name="机器人2-Group索引" max="2" info="机器人2所在的Group,0表示不配置" enableType="重启">0</nAuGroupNo>
+        <nExtAxisNum default="0" unit="无 无" id="201003" min="0" name="外部轴数" max="8" info="不参与机器人运动规划的轴数" enableType="重启">0</nExtAxisNum>
+        <nGantryAxisNum default="0" unit="无 无" id="201004" min="0" name="龙门从轴数" max="2" info="" enableType="重启">0</nGantryAxisNum>
+		<bEnableDynamicCoordinate default="0" unit="无 无" id="202001" min="0" name="动态坐标系使能" max="1" info="是否使能动态坐标系跟踪,0=不使能,1=使能" enableType="立即">0</bEnableDynamicCoordinate>
+		<auGroupDynType default="0" unit="无 无" id="202002" min="0" name="Group动态跟踪类型" max="1" info="暂不支持" enableType="立即">0</auGroupDynType>
+		<auGroupSynType default="0" unit="无 无" id="202003" min="0" name="Group同步运动类型" max="1" info="暂不支持" enableType="立即">0</auGroupSynType>
+        <nTeachOverrideSelect default="1" unit="无 无" id="202004" min="0" name="示教模式速度倍率选择" max="16" info="区分不同通道的速度倍率ID，各通道不可重复" enableType="立即">1</nTeachOverrideSelect>
+		<nReplayOverrideSelect default="1" unit="无 无" id="202005" min="0" name="回放模式速度倍率选择" max="16" info="区分不同通道的速度倍率ID，各通道不可重复" enableType="立即">1</nReplayOverrideSelect>
+    </SysChannelCtrlParam>
+	
+	<SysChannelCtrlParam channel="1">
+		<nGroupNo default="1" unit="无 无" id="201001" min="0" name="机器人1-Group索引" max="2" info="机器人1所在的Group,0表示不配置" enableType="重启">1</nGroupNo>
+        <nAuGroupNo default="0" unit="无 无" id="201002" min="0" name="机器人2-Group索引" max="2" info="机器人2所在的Group,0表示不配置" enableType="重启">0</nAuGroupNo>
+        <nExtAxisNum default="0" unit="无 无" id="201003" min="0" name="外部轴数" max="8" info="不参与机器人运动规划的轴数" enableType="重启">0</nExtAxisNum>
+        <nGantryAxisNum default="0" unit="无 无" id="201004" min="0" name="龙门从轴数" max="2" info="" enableType="重启">0</nGantryAxisNum>
+		<bEnableDynamicCoordinate default="0" unit="无 无" id="202001" min="0" name="动态坐标系使能" max="1" info="是否使能动态坐标系跟踪,0=不使能,1=使能" enableType="立即">0</bEnableDynamicCoordinate>
+		<auGroupDynType default="0" unit="无 无" id="202002" min="0" name="Group动态跟踪类型" max="1" info="暂不支持" enableType="立即">0</auGroupDynType>
+		<auGroupSynType default="0" unit="无 无" id="202003" min="0" name="Group同步运动类型" max="1" info="暂不支持" enableType="立即">0</auGroupSynType>
+        <nTeachOverrideSelect default="1" unit="无 无" id="202004" min="0" name="示教模式速度倍率选择" max="16" info="区分不同通道的速度倍率ID，各通道不可重复" enableType="立即">1</nTeachOverrideSelect>
+		<nReplayOverrideSelect default="1" unit="无 无" id="202005" min="0" name="回放模式速度倍率选择" max="16" info="区分不同通道的速度倍率ID，各通道不可重复" enableType="立即">1</nReplayOverrideSelect>
+    </SysChannelCtrlParam>
+</SystemChannelParameter>

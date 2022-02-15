@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DhParameter>
+    <kinTransLinkLength group="0" id="0">215</kinTransLinkLength>
+    <kinTransLinkLength group="0" id="1">220</kinTransLinkLength>
+    <kinTransLinkLength group="0" id="2">830</kinTransLinkLength>
+    <kinTransLinkLength group="0" id="3">187</kinTransLinkLength>
+    <kinTransLinkLength group="0" id="4">545</kinTransLinkLength>
+    <kinTransLinkLength group="0" id="5">145</kinTransLinkLength>
+    <kinTransLinkLength group="0" id="6">145</kinTransLinkLength>
+    <kinTransLinkLength group="0" id="7">135</kinTransLinkLength>
+    <kinTransLinkLength group="0" id="8">0</kinTransLinkLength>
+    <kinTransLinkLength group="0" id="9">0</kinTransLinkLength>
+    <kinTransLinkLength group="0" id="10">0</kinTransLinkLength>
+    <kinTransLinkLength group="0" id="11">0</kinTransLinkLength>
+    <couple_ratio master="0" slave="0" group="0" id="0" used="0">0 0</couple_ratio>
+    <couple_ratio master="0" slave="0" group="0" id="1" used="0">0 0</couple_ratio>
+    <couple_ratio master="0" slave="0" group="0" id="2" used="0">0 0</couple_ratio>
+    <couple_ratio master="0" slave="0" group="0" id="3" used="0">0 0</couple_ratio>
+    <axis_dir_offset group="0" id="0">0 0</axis_dir_offset>
+    <axis_dir_offset group="0" id="1">0 0</axis_dir_offset>
+    <axis_dir_offset group="0" id="2">0 0</axis_dir_offset>
+    <axis_dir_offset group="0" id="3">0 0</axis_dir_offset>
+    <axis_dir_offset group="0" id="4">0 0</axis_dir_offset>
+    <axis_dir_offset group="0" id="5">0 0</axis_dir_offset>
+    <axis_dir_offset group="0" id="6">0 0</axis_dir_offset>
+    <axis_dir_offset group="0" id="7">0 0</axis_dir_offset>
+    <kinTransLinkLength group="1" id="0">0</kinTransLinkLength>
+    <kinTransLinkLength group="1" id="1">0</kinTransLinkLength>
+    <kinTransLinkLength group="1" id="2">0</kinTransLinkLength>
+    <kinTransLinkLength group="1" id="3">1</kinTransLinkLength>
+    <kinTransLinkLength group="1" id="4">0</kinTransLinkLength>
+    <kinTransLinkLength group="1" id="5">0</kinTransLinkLength>
+    <kinTransLinkLength group="1" id="6">0</kinTransLinkLength>
+    <kinTransLinkLength group="1" id="7">0</kinTransLinkLength>
+    <kinTransLinkLength group="1" id="8">0</kinTransLinkLength>
+    <kinTransLinkLength group="1" id="9">0</kinTransLinkLength>
+    <kinTransLinkLength group="1" id="10">0</kinTransLinkLength>
+    <kinTransLinkLength group="1" id="11">1</kinTransLinkLength>
+    <couple_ratio master="0" slave="0" group="1" id="0" used="0">0 0</couple_ratio>
+    <couple_ratio master="0" slave="0" group="1" id="1" used="0">0 0</couple_ratio>
+    <couple_ratio master="0" slave="0" group="1" id="2" used="0">0 0</couple_ratio>
+    <couple_ratio master="0" slave="0" group="1" id="3" used="0">0 0</couple_ratio>
+    <axis_dir_offset group="1" id="0">0 0</axis_dir_offset>
+    <axis_dir_offset group="1" id="1">0 0</axis_dir_offset>
+    <axis_dir_offset group="1" id="2">0 0</axis_dir_offset>
+    <axis_dir_offset group="1" id="3">0 0</axis_dir_offset>
+    <axis_dir_offset group="1" id="4">0 0</axis_dir_offset>
+    <axis_dir_offset group="1" id="5">0 0</axis_dir_offset>
+    <axis_dir_offset group="1" id="6">0 0</axis_dir_offset>
+    <axis_dir_offset group="1" id="7">0 0</axis_dir_offset>
+</DhParameter>

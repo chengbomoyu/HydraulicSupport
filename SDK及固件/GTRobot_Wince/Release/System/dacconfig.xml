@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SystemDacConfig>
+    <DacConfig id="0">
+        <enable>1</enable>
+        <dacType>1</dacType>
+        <dacNo>1</dacNo>
+		<reverse>0</reverse>
+		<bias>0</bias>
+		<limit>0</limit>
+    </DacConfig>
+	<DacConfig id="1">
+        <enable>1</enable>
+        <dacType>1</dacType>
+        <dacNo>2</dacNo>
+		<reverse>0</reverse>
+		<bias>0</bias>
+		<limit>0</limit>
+    </DacConfig>
+	<DacConfig id="2">
+        <enable>1</enable>
+        <dacType>1</dacType>
+        <dacNo>3</dacNo>
+		<reverse>0</reverse>
+		<bias>0</bias>
+		<limit>0</limit>
+    </DacConfig>
+	<DacConfig id="3">
+        <enable>1</enable>
+        <dacType>1</dacType>
+        <dacNo>4</dacNo>
+		<reverse>0</reverse>
+		<bias>0</bias>
+		<limit>0</limit>
+    </DacConfig>
+	
+	
+	
+	<DacConfig id="4">
+        <enable>1</enable>
+        <dacType>2</dacType>
+        <dacNo>1</dacNo>
+		<reverse>0</reverse>
+		<bias>0</bias>
+		<limit>0</limit>
+    </DacConfig>
+	<DacConfig id="5">
+        <enable>1</enable>
+        <dacType>2</dacType>
+        <dacNo>2</dacNo>
+		<reverse>0</reverse>
+		<bias>0</bias>
+		<limit>0</limit>
+    </DacConfig>
+	<DacConfig id="6">
+        <enable>1</enable>
+        <dacType>2</dacType>
+        <dacNo>3</dacNo>
+		<reverse>0</reverse>
+		<bias>0</bias>
+		<limit>0</limit>
+    </DacConfig>
+	<DacConfig id="7">
+        <enable>1</enable>
+        <dacType>2</dacType>
+        <dacNo>4</dacNo>
+		<reverse>0</reverse>
+		<bias>0</bias>
+		<limit>0</limit>
+    </DacConfig>
+	
+</SystemDacConfig>

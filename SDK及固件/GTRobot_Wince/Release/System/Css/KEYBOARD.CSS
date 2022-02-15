@@ -1,0 +1,81 @@
+
+QListWidget {
+    background: transparent;
+    border: none;
+    color: #F3F3F3;
+    outline: none;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+QListWidget::Item {
+    min-width: 45px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 3px;
+    padding: 0px 2px;
+}
+
+QListWidget::Item, QListWidget::Item::selected {
+    background: #F75717;
+}
+
+QPushButton, QToolButton {
+    border: 0px solid transparent;
+    border-radius: 3px;
+    background: #5b6871;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei';
+}
+
+QPushButton[type="left_arrow"] {
+    
+    background: #5b6871;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei';
+	image: url(./Icon/left_arrow_white.png);
+}
+QPushButton[type="right_arrow"] {
+   
+    background: #5b6871;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei';
+	image: url(./Icon/right_arrow_white.png);
+}
+
+QPushButton:pressed{ 
+	background-color:gray;
+}
+QToolButton:pressed{ 
+	background-color:gray;
+}
+
+QLabel {
+    font-size: 16px;
+    font-family: 'Microsoft Yahei';
+    color: white;
+}
+
+QWidget[type="pinyin"] {
+	
+	background: #5b6871;
+	font-size: 18px;
+    font-weight: bold;
+    color: white;
+	 font-family: 'Microsoft Yahei';
+}
+
+QToolButton:checked {
+    background: #24B1DF;
+}
+
+QPushButton#down_btn, QPushButton#up_btn {
+    background: transparent;
+}

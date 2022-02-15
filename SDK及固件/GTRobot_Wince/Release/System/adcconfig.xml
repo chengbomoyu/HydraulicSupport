@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SystemAdcConfig>
+    <AdcConfig id="0">
+        <enable>1</enable>
+        <adcType>1</adcType>
+        <adcNo>1</adcNo>
+		<reverse>0</reverse>
+		<filterMode>0</filterMode>
+		<enableUpdate>1</enableUpdate>
+    </AdcConfig>
+	<AdcConfig id="1">
+        <enable>1</enable>
+        <adcType>1</adcType>
+        <adcNo>2</adcNo>
+		<reverse>0</reverse>
+		<filterMode>0</filterMode>
+		<enableUpdate>1</enableUpdate>
+    </AdcConfig>
+	<AdcConfig id="2">
+        <enable>1</enable>
+        <adcType>1</adcType>
+        <adcNo>3</adcNo>
+		<reverse>0</reverse>
+		<filterMode>0</filterMode>
+		<enableUpdate>1</enableUpdate>
+    </AdcConfig>
+	<AdcConfig id="3">
+        <enable>1</enable>
+        <adcType>1</adcType>
+        <adcNo>4</adcNo>
+		<reverse>0</reverse>
+		<filterMode>0</filterMode>
+		<enableUpdate>1</enableUpdate>
+    </AdcConfig>
+	
+	<AdcConfig id="4">
+        <enable>1</enable>
+        <adcType>2</adcType>
+        <adcNo>1</adcNo>
+		<reverse>0</reverse>
+		<filterMode>0</filterMode>
+		<enableUpdate>1</enableUpdate>
+    </AdcConfig>
+	<AdcConfig id="5">
+        <enable>1</enable>
+        <adcType>2</adcType>
+        <adcNo>2</adcNo>
+		<reverse>0</reverse>
+		<filterMode>0</filterMode>
+		<enableUpdate>1</enableUpdate>
+    </AdcConfig>
+	<AdcConfig id="6">
+        <enable>1</enable>
+        <adcType>2</adcType>
+        <adcNo>3</adcNo>
+		<reverse>0</reverse>
+		<filterMode>0</filterMode>
+		<enableUpdate>1</enableUpdate>
+    </AdcConfig>
+	<AdcConfig id="7">
+        <enable>1</enable>
+        <adcType>2</adcType>
+        <adcNo>4</adcNo>
+		<reverse>0</reverse>
+		<filterMode>0</filterMode>
+		<enableUpdate>1</enableUpdate>
+    </AdcConfig>
+	<AdcConfig id="8">
+        <enable>1</enable>
+        <adcType>2</adcType>
+        <adcNo>5</adcNo>
+		<reverse>0</reverse>
+		<filterMode>0</filterMode>
+		<enableUpdate>1</enableUpdate>
+    </AdcConfig>
+	<AdcConfig id="9">
+        <enable>1</enable>
+        <adcType>2</adcType>
+        <adcNo>6</adcNo>
+		<reverse>0</reverse>
+		<filterMode>0</filterMode>
+		<enableUpdate>1</enableUpdate>
+    </AdcConfig>
+	
+</SystemAdcConfig>

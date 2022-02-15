@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SystemPlcDoYConfig>
+    <DoConfig id="0">
+        <enable>1</enable>
+        <type>1</type>
+        <num>16</num>
+        <sense>0</sense>
+    </DoConfig>
+    <DoConfig id="1">
+        <enable>1</enable>
+        <type>0</type>
+        <num>40</num>
+        <sense>0</sense>
+    </DoConfig>
+    <DoConfig id="2">
+        <enable>0</enable>
+        <type>2</type>
+        <num>16</num>
+        <sense>0</sense>
+    </DoConfig>
+    <DoConfig id="3">
+        <enable>0</enable>
+        <type>2</type>
+        <num>16</num>
+        <sense>0</sense>
+    </DoConfig>
+    <DoConfig id="4">
+        <enable>0</enable>
+        <type>2</type>
+        <num>16</num>
+        <sense>0</sense>
+    </DoConfig>
+	<DoConfig id="5">
+        <enable>0</enable>
+        <type>2</type>
+        <num>16</num>
+        <sense>0</sense>
+    </DoConfig>
+	<DoConfig id="6">
+        <enable>0</enable>
+        <type>2</type>
+        <num>16</num>
+        <sense>0</sense>
+    </DoConfig>
+	<DoConfig id="7">
+        <enable>0</enable>
+        <type>2</type>
+        <num>16</num>
+        <sense>0</sense>
+    </DoConfig>
+</SystemPlcDoYConfig>

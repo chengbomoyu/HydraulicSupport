@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SystemPlcXConfig>
+    <PlcXConfig id="0">
+        <valueType>0</valueType>
+        <xIndex>0</xIndex>
+        <xBit>0</xBit>
+        <diEnable>1</diEnable>
+        <diType>1</diType>
+        <diIndex>0</diIndex>
+        <diSense>1</diSense>
+        <comment>servo</comment>
+    </PlcXConfig>
+    <PlcXConfig id="1">
+        <valueType>0</valueType>
+        <xIndex>0</xIndex>
+        <xBit>1</xBit>
+        <diEnable>1</diEnable>
+        <diType>1</diType>
+        <diIndex>1</diIndex>
+        <diSense>1</diSense>
+        <comment>start</comment>
+    </PlcXConfig>
+    <PlcXConfig id="2">
+        <valueType>0</valueType>
+        <xIndex>0</xIndex>
+        <xBit>2</xBit>
+        <diEnable>1</diEnable>
+        <diType>1</diType>
+        <diIndex>2</diIndex>
+        <diSense>1</diSense>
+        <comment>stop</comment>
+    </PlcXConfig>
+    <PlcXConfig id="3">
+        <valueType>0</valueType>
+        <xIndex>0</xIndex>
+        <xBit>3</xBit>
+        <diEnable>1</diEnable>
+        <diType>1</diType>
+        <diIndex>3</diIndex>
+        <diSense>0</diSense>
+        <comment>estop</comment>
+    </PlcXConfig>
+    <PlcXConfig id="4">
+        <valueType>0</valueType>
+        <xIndex>0</xIndex>
+        <xBit>4</xBit>
+        <diEnable>1</diEnable>
+        <diType>1</diType>
+        <diIndex>4</diIndex>
+        <diSense>1</diSense>
+        <comment>mode0</comment>
+    </PlcXConfig>
+    <PlcXConfig id="5">
+        <valueType>0</valueType>
+        <xIndex>0</xIndex>
+        <xBit>5</xBit>
+        <diEnable>1</diEnable>
+        <diType>1</diType>
+        <diIndex>5</diIndex>
+        <diSense>1</diSense>
+        <comment>mode1</comment>
+    </PlcXConfig>
+	
+	
+    <PlcXConfig id="6">
+        <valueType>0</valueType>
+        <xIndex>1</xIndex>
+        <xBit>0</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>0</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.0</comment>
+    </PlcXConfig>
+    <PlcXConfig id="7">
+        <valueType>0</valueType>
+        <xIndex>1</xIndex>
+        <xBit>1</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>1</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.1</comment>
+    </PlcXConfig>
+    <PlcXConfig id="8">
+        <valueType>0</valueType>
+        <xIndex>1</xIndex>
+        <xBit>2</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>2</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.2</comment>
+    </PlcXConfig>
+    <PlcXConfig id="9">
+        <valueType>0</valueType>
+        <xIndex>1</xIndex>
+        <xBit>3</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>3</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.3</comment>
+    </PlcXConfig>
+    <PlcXConfig id="10">
+        <valueType>0</valueType>
+        <xIndex>1</xIndex>
+        <xBit>4</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>4</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.4</comment>
+    </PlcXConfig>
+    <PlcXConfig id="11">
+        <valueType>0</valueType>
+        <xIndex>1</xIndex>
+        <xBit>5</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>5</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.5</comment>
+    </PlcXConfig>
+    <PlcXConfig id="12">
+        <valueType>0</valueType>
+        <xIndex>1</xIndex>
+        <xBit>6</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>6</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.6</comment>
+    </PlcXConfig>
+    <PlcXConfig id="13">
+        <valueType>0</valueType>
+        <xIndex>1</xIndex>
+        <xBit>7</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>7</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.7</comment>
+    </PlcXConfig>
+    <PlcXConfig id="14">
+        <valueType>0</valueType>
+        <xIndex>1</xIndex>
+        <xBit>8</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>8</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.8</comment>
+    </PlcXConfig>
+    <PlcXConfig id="15">
+        <valueType>0</valueType>
+        <xIndex>1</xIndex>
+        <xBit>9</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>9</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.9</comment>
+    </PlcXConfig>
+    <PlcXConfig id="16">
+        <valueType>0</valueType>
+        <xIndex>1</xIndex>
+        <xBit>10</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>10</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.10</comment>
+    </PlcXConfig>
+    <PlcXConfig id="17">
+        <valueType>0</valueType>
+        <xIndex>1</xIndex>
+        <xBit>11</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>11</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.11</comment>
+    </PlcXConfig>
+    <PlcXConfig id="18">
+        <valueType>0</valueType>
+        <xIndex>1</xIndex>
+        <xBit>12</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>12</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.12</comment>
+    </PlcXConfig>
+    <PlcXConfig id="19">
+        <valueType>0</valueType>
+        <xIndex>1</xIndex>
+        <xBit>13</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>13</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.13</comment>
+    </PlcXConfig>
+    <PlcXConfig id="20">
+        <valueType>0</valueType>
+        <xIndex>1</xIndex>
+        <xBit>14</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>14</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.14</comment>
+    </PlcXConfig>
+    <PlcXConfig id="21">
+        <valueType>0</valueType>
+        <xIndex>1</xIndex>
+        <xBit>15</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>15</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.15</comment>
+    </PlcXConfig>
+	
+	<PlcXConfig id="22">
+        <valueType>0</valueType>
+        <xIndex>2</xIndex>
+        <xBit>0</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>16</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.16</comment>
+    </PlcXConfig>
+    <PlcXConfig id="23">
+        <valueType>0</valueType>
+        <xIndex>2</xIndex>
+        <xBit>1</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>17</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.17</comment>
+    </PlcXConfig>
+    <PlcXConfig id="24">
+        <valueType>0</valueType>
+        <xIndex>2</xIndex>
+        <xBit>2</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>18</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.18</comment>
+    </PlcXConfig>
+    <PlcXConfig id="25">
+        <valueType>0</valueType>
+        <xIndex>2</xIndex>
+        <xBit>3</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>19</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.19</comment>
+    </PlcXConfig>
+    <PlcXConfig id="26">
+        <valueType>0</valueType>
+        <xIndex>2</xIndex>
+        <xBit>4</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>20</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.20</comment>
+    </PlcXConfig>
+    <PlcXConfig id="27">
+        <valueType>0</valueType>
+        <xIndex>2</xIndex>
+        <xBit>5</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>21</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.21</comment>
+    </PlcXConfig>
+    <PlcXConfig id="28">
+        <valueType>0</valueType>
+        <xIndex>2</xIndex>
+        <xBit>6</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>22</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.22</comment>
+    </PlcXConfig>
+    <PlcXConfig id="29">
+        <valueType>0</valueType>
+        <xIndex>2</xIndex>
+        <xBit>7</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>23</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.23</comment>
+    </PlcXConfig>
+    <PlcXConfig id="30">
+        <valueType>0</valueType>
+        <xIndex>2</xIndex>
+        <xBit>8</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>24</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.24</comment>
+    </PlcXConfig>
+    <PlcXConfig id="31">
+        <valueType>0</valueType>
+        <xIndex>2</xIndex>
+        <xBit>9</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>25</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.25</comment>
+    </PlcXConfig>
+    <PlcXConfig id="32">
+        <valueType>0</valueType>
+        <xIndex>2</xIndex>
+        <xBit>10</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>26</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.26</comment>
+    </PlcXConfig>
+    <PlcXConfig id="33">
+        <valueType>0</valueType>
+        <xIndex>2</xIndex>
+        <xBit>11</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>27</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.27</comment>
+    </PlcXConfig>
+    <PlcXConfig id="34">
+        <valueType>0</valueType>
+        <xIndex>2</xIndex>
+        <xBit>12</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>28</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.28</comment>
+    </PlcXConfig>
+    <PlcXConfig id="35">
+        <valueType>0</valueType>
+        <xIndex>2</xIndex>
+        <xBit>13</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>29</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.29</comment>
+    </PlcXConfig>
+    <PlcXConfig id="36">
+        <valueType>0</valueType>
+        <xIndex>2</xIndex>
+        <xBit>14</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>30</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.30</comment>
+    </PlcXConfig>
+    <PlcXConfig id="37">
+        <valueType>0</valueType>
+        <xIndex>2</xIndex>
+        <xBit>15</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>31</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.31</comment>
+    </PlcXConfig>
+	
+	<PlcXConfig id="38">
+        <valueType>0</valueType>
+        <xIndex>3</xIndex>
+        <xBit>0</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>32</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.32</comment>
+    </PlcXConfig>
+	<PlcXConfig id="39">
+        <valueType>0</valueType>
+        <xIndex>3</xIndex>
+        <xBit>1</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>33</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.33</comment>
+    </PlcXConfig>
+	<PlcXConfig id="40">
+        <valueType>0</valueType>
+        <xIndex>3</xIndex>
+        <xBit>2</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>34</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.34</comment>
+    </PlcXConfig>
+	<PlcXConfig id="41">
+        <valueType>0</valueType>
+        <xIndex>3</xIndex>
+        <xBit>3</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>35</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.35</comment>
+    </PlcXConfig>
+	<PlcXConfig id="42">
+        <valueType>0</valueType>
+        <xIndex>3</xIndex>
+        <xBit>4</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>36</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.36</comment>
+    </PlcXConfig>
+	<PlcXConfig id="43">
+        <valueType>0</valueType>
+        <xIndex>3</xIndex>
+        <xBit>5</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>37</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.37</comment>
+    </PlcXConfig>
+	<PlcXConfig id="44">
+        <valueType>0</valueType>
+        <xIndex>3</xIndex>
+        <xBit>6</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>38</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.38</comment>
+    </PlcXConfig>
+	<PlcXConfig id="45">
+        <valueType>0</valueType>
+        <xIndex>3</xIndex>
+        <xBit>7</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>39</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.39</comment>
+    </PlcXConfig>
+	<PlcXConfig id="46">
+        <valueType>0</valueType>
+        <xIndex>3</xIndex>
+        <xBit>8</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>40</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.40</comment>
+    </PlcXConfig>
+	<PlcXConfig id="47">
+        <valueType>0</valueType>
+        <xIndex>3</xIndex>
+        <xBit>9</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>41</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.41</comment>
+    </PlcXConfig>
+	
+	<PlcXConfig id="48">
+        <valueType>0</valueType>
+        <xIndex>3</xIndex>
+        <xBit>10</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>42</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.42</comment>
+    </PlcXConfig>
+	
+	<PlcXConfig id="49">
+        <valueType>0</valueType>
+        <xIndex>3</xIndex>
+        <xBit>11</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>43</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.43</comment>
+    </PlcXConfig>
+	
+	<PlcXConfig id="50">
+        <valueType>0</valueType>
+        <xIndex>3</xIndex>
+        <xBit>12</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>44</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.44</comment>
+    </PlcXConfig>
+	
+	<PlcXConfig id="51">
+        <valueType>0</valueType>
+        <xIndex>3</xIndex>
+        <xBit>13</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>45</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.45</comment>
+    </PlcXConfig>
+	
+	<PlcXConfig id="52">
+        <valueType>0</valueType>
+        <xIndex>3</xIndex>
+        <xBit>14</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>46</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.46</comment>
+    </PlcXConfig>
+	
+	<PlcXConfig id="53">
+        <valueType>0</valueType>
+        <xIndex>3</xIndex>
+        <xBit>15</xBit>
+        <diEnable>1</diEnable>
+        <diType>0</diType>
+        <diIndex>47</diIndex>
+        <diSense>0</diSense>
+        <comment>本地DI1.47</comment>
+    </PlcXConfig>
+	
+	<PlcXConfig id="70">
+        <valueType>0</valueType>
+        <xIndex>4</xIndex>
+        <xBit>0</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>0</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.0</comment>
+    </PlcXConfig>
+	<PlcXConfig id="71">
+        <valueType>0</valueType>
+        <xIndex>4</xIndex>
+        <xBit>1</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>1</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.1</comment>
+    </PlcXConfig>
+	<PlcXConfig id="72">
+       <valueType>0</valueType>
+        <xIndex>4</xIndex>
+        <xBit>2</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>2</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.2</comment>
+    </PlcXConfig>
+	<PlcXConfig id="73">
+        <valueType>0</valueType>
+        <xIndex>4</xIndex>
+        <xBit>3</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>3</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.3</comment>
+    </PlcXConfig>
+	<PlcXConfig id="74">
+        <valueType>0</valueType>
+        <xIndex>4</xIndex>
+        <xBit>4</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>4</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.4</comment>
+    </PlcXConfig>
+	<PlcXConfig id="75">
+        <valueType>0</valueType>
+        <xIndex>4</xIndex>
+        <xBit>5</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>5</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.5</comment>
+    </PlcXConfig>
+	<PlcXConfig id="76">
+        <valueType>0</valueType>
+        <xIndex>4</xIndex>
+        <xBit>6</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>6</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.6</comment>
+    </PlcXConfig>
+	<PlcXConfig id="77">
+        <valueType>0</valueType>
+        <xIndex>4</xIndex>
+        <xBit>7</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>7</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.7</comment>
+    </PlcXConfig>
+	<PlcXConfig id="78">
+        <valueType>0</valueType>
+        <xIndex>4</xIndex>
+        <xBit>8</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>8</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.8</comment>
+    </PlcXConfig>
+	<PlcXConfig id="79">
+        <valueType>0</valueType>
+        <xIndex>4</xIndex>
+        <xBit>9</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>9</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.9</comment>
+    </PlcXConfig>
+	<PlcXConfig id="80">
+        <valueType>0</valueType>
+        <xIndex>4</xIndex>
+        <xBit>10</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>10</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.10</comment>
+    </PlcXConfig>
+	<PlcXConfig id="81">
+        <valueType>0</valueType>
+        <xIndex>4</xIndex>
+        <xBit>11</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>11</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.11</comment>
+    </PlcXConfig>
+	<PlcXConfig id="82">
+        <valueType>0</valueType>
+        <xIndex>4</xIndex>
+        <xBit>12</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>12</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.12</comment>
+    </PlcXConfig>
+	<PlcXConfig id="83">
+        <valueType>0</valueType>
+        <xIndex>4</xIndex>
+        <xBit>13</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>13</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.13</comment>
+    </PlcXConfig>
+	<PlcXConfig id="84">
+        <valueType>0</valueType>
+        <xIndex>4</xIndex>
+        <xBit>14</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>14</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.14</comment>
+    </PlcXConfig>
+	<PlcXConfig id="85">
+        <valueType>0</valueType>
+        <xIndex>4</xIndex>
+        <xBit>15</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>15</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.15</comment>
+    </PlcXConfig>
+	
+	<PlcXConfig id="86">
+        <valueType>0</valueType>
+        <xIndex>5</xIndex>
+        <xBit>0</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>16</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.16</comment>
+    </PlcXConfig>
+	<PlcXConfig id="87">
+        <valueType>0</valueType>
+        <xIndex>5</xIndex>
+        <xBit>1</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>17</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.17</comment>
+    </PlcXConfig>
+	<PlcXConfig id="88">
+       <valueType>0</valueType>
+        <xIndex>5</xIndex>
+        <xBit>2</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>18</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.18</comment>
+    </PlcXConfig>
+	<PlcXConfig id="89">
+        <valueType>0</valueType>
+        <xIndex>5</xIndex>
+        <xBit>3</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>19</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.19</comment>
+    </PlcXConfig>
+	<PlcXConfig id="90">
+        <valueType>0</valueType>
+        <xIndex>5</xIndex>
+        <xBit>4</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>20</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.20</comment>
+    </PlcXConfig>
+	<PlcXConfig id="91">
+        <valueType>0</valueType>
+        <xIndex>5</xIndex>
+        <xBit>5</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>21</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.21</comment>
+    </PlcXConfig>
+	<PlcXConfig id="92">
+        <valueType>0</valueType>
+        <xIndex>5</xIndex>
+        <xBit>6</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>22</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.22</comment>
+    </PlcXConfig>
+	<PlcXConfig id="93">
+        <valueType>0</valueType>
+        <xIndex>5</xIndex>
+        <xBit>7</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>23</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.23</comment>
+    </PlcXConfig>
+	<PlcXConfig id="94">
+        <valueType>0</valueType>
+        <xIndex>5</xIndex>
+        <xBit>8</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>24</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.24</comment>
+    </PlcXConfig>
+	<PlcXConfig id="95">
+        <valueType>0</valueType>
+        <xIndex>5</xIndex>
+        <xBit>9</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>25</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.25</comment>
+    </PlcXConfig>
+	<PlcXConfig id="96">
+        <valueType>0</valueType>
+        <xIndex>5</xIndex>
+        <xBit>10</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>26</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.26</comment>
+    </PlcXConfig>
+	<PlcXConfig id="97">
+        <valueType>0</valueType>
+        <xIndex>5</xIndex>
+        <xBit>11</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>27</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.27</comment>
+    </PlcXConfig>
+	<PlcXConfig id="98">
+        <valueType>0</valueType>
+        <xIndex>5</xIndex>
+        <xBit>12</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>28</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.28</comment>
+    </PlcXConfig>
+	<PlcXConfig id="99">
+        <valueType>0</valueType>
+        <xIndex>5</xIndex>
+        <xBit>13</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>29</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.29</comment>
+    </PlcXConfig>
+	<PlcXConfig id="100">
+        <valueType>0</valueType>
+        <xIndex>5</xIndex>
+        <xBit>14</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>30</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.30</comment>
+    </PlcXConfig>
+	<PlcXConfig id="101">
+        <valueType>0</valueType>
+        <xIndex>5</xIndex>
+        <xBit>15</xBit>
+        <diEnable>1</diEnable>
+        <diType>2</diType>
+        <diIndex>31</diIndex>
+        <diSense>1</diSense>
+        <comment>扩展DI2.31</comment>
+    </PlcXConfig>
+	
+</SystemPlcXConfig>

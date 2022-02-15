@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CoordinateConfig>
+    <CurrentCoordId>
+        <currentid type="0">0</currentid>
+        <currentid type="3">0</currentid>
+    </CurrentCoordId>
+    <Coordinate group="0" type="3" id="1">
+        <type>0</type>
+        <orientationMode>1</orientationMode>
+        <pos>0.00000000 0.00000000 250.00000000</pos>
+        <ori>0.00000000 0.00000000 0.00000000 0.0000</ori>
+        <extpos>-1 -1 -1 -1 -1 -1 -1 -1</extpos>
+        <comment/>
+        <calitype>3</calitype>
+        <caliplane>0</caliplane>
+        <calipoint id="0">
+            <coord_type>-1</coord_type>
+            <point_value>-1 -1 -1 -1 -1 -1 -1 -1</point_value>
+        </calipoint>
+        <calipoint id="1">
+            <coord_type>-1</coord_type>
+            <point_value>-1 -1 -1 -1 -1 -1 -1 -1</point_value>
+        </calipoint>
+        <calipoint id="2">
+            <coord_type>-1</coord_type>
+            <point_value>-1 -1 -1 -1 -1 -1 -1 -1</point_value>
+        </calipoint>
+        <calipoint id="3">
+            <coord_type>-1</coord_type>
+            <point_value>-1 -1 -1 -1 -1 -1 -1 -1</point_value>
+        </calipoint>
+        <calipoint id="4">
+            <coord_type>-1</coord_type>
+            <point_value>-1 -1 -1 -1 -1 -1 -1 -1</point_value>
+        </calipoint>
+        <calipoint id="5">
+            <coord_type>-1</coord_type>
+            <point_value>-1 -1 -1 -1 -1 -1 -1 -1</point_value>
+        </calipoint>
+    </Coordinate>
+    <Coordinate branch="0" group="0" type="0" id="1">
+        <type>4</type>
+        <orientationMode>1</orientationMode>
+        <pos>574.72733664 -70.95496113 1573.26322173</pos>
+        <ori>87.91596538 0.00000000 0.00000000 0.00000000</ori>
+        <extpos>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extpos>
+        <comment>无</comment>
+        <iscali>1</iscali>
+        <calitype>4</calitype>
+        <caliplane>0</caliplane>
+        <calipoint id="0">
+            <cali_status>1</cali_status>
+            <coord_type>1</coord_type>
+            <cali_coord_id>-1</cali_coord_id>
+            <point_value>574.72733664 -70.95496113 1573.26322173 -91.83953397 -0.12254892 1.53758080 0.00000000 0.00000000</point_value>
+        </calipoint>
+        <calipoint id="1">
+            <cali_status>1</cali_status>
+            <coord_type>1</coord_type>
+            <cali_coord_id>-1</cali_coord_id>
+            <point_value>583.65933664 174.50170553 1573.26322173 -91.83953397 -0.12254892 1.53758080 0.00000000 0.00000000</point_value>
+        </calipoint>
+        <calipoint id="2">
+            <cali_status>1</cali_status>
+            <coord_type>1</coord_type>
+            <cali_coord_id>-1</cali_coord_id>
+            <point_value>463.54933664 93.30170553 1573.26322173 -91.83953397 -0.12254892 1.53758080 0.00000000 0.00000000</point_value>
+        </calipoint>
+        <calipoint id="3">
+            <cali_status>0</cali_status>
+            <coord_type>5</coord_type>
+            <cali_coord_id>-1</cali_coord_id>
+            <point_value>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</point_value>
+        </calipoint>
+        <calipoint id="4">
+            <cali_status>0</cali_status>
+            <coord_type>5</coord_type>
+            <cali_coord_id>-1</cali_coord_id>
+            <point_value>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</point_value>
+        </calipoint>
+        <calipoint id="5">
+            <cali_status>0</cali_status>
+            <coord_type>5</coord_type>
+            <cali_coord_id>-1</cali_coord_id>
+            <point_value>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</point_value>
+        </calipoint>
+    </Coordinate>
+    <Coordinate branch="0" group="0" type="0" id="2">
+        <type>0</type>
+        <orientationMode>1</orientationMode>
+        <pos>574.72733664 -70.95496113 1573.26322173</pos>
+        <ori>87.91596538 0.00000000 0.00000000 0.00000000</ori>
+        <extpos>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extpos>
+        <comment>无</comment>
+        <iscali>0</iscali>
+        <calitype>-1</calitype>
+        <caliplane>0</caliplane>
+        <calipoint id="0">
+            <cali_status>0</cali_status>
+            <coord_type>5</coord_type>
+            <cali_coord_id>-1</cali_coord_id>
+            <point_value>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</point_value>
+        </calipoint>
+        <calipoint id="1">
+            <cali_status>0</cali_status>
+            <coord_type>5</coord_type>
+            <cali_coord_id>-1</cali_coord_id>
+            <point_value>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</point_value>
+        </calipoint>
+        <calipoint id="2">
+            <cali_status>0</cali_status>
+            <coord_type>5</coord_type>
+            <cali_coord_id>-1</cali_coord_id>
+            <point_value>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</point_value>
+        </calipoint>
+        <calipoint id="3">
+            <cali_status>0</cali_status>
+            <coord_type>5</coord_type>
+            <cali_coord_id>-1</cali_coord_id>
+            <point_value>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</point_value>
+        </calipoint>
+        <calipoint id="4">
+            <cali_status>0</cali_status>
+            <coord_type>5</coord_type>
+            <cali_coord_id>-1</cali_coord_id>
+            <point_value>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</point_value>
+        </calipoint>
+        <calipoint id="5">
+            <cali_status>0</cali_status>
+            <coord_type>5</coord_type>
+            <cali_coord_id>-1</cali_coord_id>
+            <point_value>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</point_value>
+        </calipoint>
+    </Coordinate>
+    <Coordinate branch="0" group="0" type="0" id="3">
+        <type>0</type>
+        <orientationMode>1</orientationMode>
+        <pos>574.72733664 -70.95496113 1573.26322173</pos>
+        <ori>87.91596538 0.00000000 0.00000000 0.00000000</ori>
+        <extpos>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extpos>
+        <comment>无</comment>
+        <iscali>0</iscali>
+        <calitype>-1</calitype>
+        <caliplane>0</caliplane>
+        <calipoint id="0">
+            <cali_status>0</cali_status>
+            <coord_type>5</coord_type>
+            <cali_coord_id>-1</cali_coord_id>
+            <point_value>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</point_value>
+        </calipoint>
+        <calipoint id="1">
+            <cali_status>0</cali_status>
+            <coord_type>5</coord_type>
+            <cali_coord_id>-1</cali_coord_id>
+            <point_value>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</point_value>
+        </calipoint>
+        <calipoint id="2">
+            <cali_status>0</cali_status>
+            <coord_type>5</coord_type>
+            <cali_coord_id>-1</cali_coord_id>
+            <point_value>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</point_value>
+        </calipoint>
+        <calipoint id="3">
+            <cali_status>0</cali_status>
+            <coord_type>5</coord_type>
+            <cali_coord_id>-1</cali_coord_id>
+            <point_value>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</point_value>
+        </calipoint>
+        <calipoint id="4">
+            <cali_status>0</cali_status>
+            <coord_type>5</coord_type>
+            <cali_coord_id>-1</cali_coord_id>
+            <point_value>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</point_value>
+        </calipoint>
+        <calipoint id="5">
+            <cali_status>0</cali_status>
+            <coord_type>5</coord_type>
+            <cali_coord_id>-1</cali_coord_id>
+            <point_value>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</point_value>
+        </calipoint>
+    </Coordinate>
+</CoordinateConfig>

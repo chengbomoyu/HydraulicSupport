@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SystemParameter>
+    <SysCtlParam>
+        <nSystemLanguage default="1" unit="无 无" id="101001" min="0" name="系统语言" max="1" info="0=中文 1=英文" enableType="重启">0</nSystemLanguage>
+        <nCardType default="2" unit="无 无" id="101002" min="0" name="控制卡类型" max="2" info="" enableType="重启">2</nCardType>
+        <eHmiType default="1" unit="无 无" id="101003" min="0" name="eHmi面板类型" max="1" info="" enableType="重启">1</eHmiType>
+        <nSysAxisNum default="6" unit="无 无" id="101004" min="0" name="系统控制轴数" max="32" info="系统中所有的轴数量" enableType="重启">6</nSysAxisNum>
+        <nSysChannelNum default="1" unit="无 无" id="101005" min="1" name="系统通道数" max="2" info="系统目前支持2个通道" enableType="重启">1</nSysChannelNum>
+        <nSysGroupNum default="1" unit="无 无" id="101006" min="1" name="系统Group数" max="2" info="系统目前支持2个机器人组" enableType="重启">1</nSysGroupNum>
+        <eHmiDiNum default="16" unit="无 无" id="101007" min="0" name="eHmi面板Di数量" max="16" info="" enableType="重启">16</eHmiDiNum>
+        <eHmiDoNum default="16" unit="无 无" id="101008" min="0" name="eHmi面板Do数量" max="16" info="" enableType="重启">16</eHmiDoNum>
+        <localDiNum default="41" unit="无 无" id="101009" min="0" name="本地DI数量" max="64" info="" enableType="重启">40</localDiNum>
+        <localDoNum default="40" unit="无 无" id="101010" min="0" name="本地DO数量" max="64" info="" enableType="重启">41</localDoNum>
+        <bGxnExtModule default="0" unit="无 无" id="101011" min="0" name="配置扩展IO模块" max="1" info="0=不配置,1=配置" enableType="重启">0</bGxnExtModule>
+        <gxnExtDiNum default="16" unit="无 无" id="101012" min="0" name="GXN扩展DI数量" max="16" info="默认为16位DI" enableType="重启">16</gxnExtDiNum>
+        <gxnExtDoNum default="16" unit="无 无" id="101013" min="0" name="GXN扩展DO数量" max="16" info="默认为16位DO" enableType="重启">16</gxnExtDoNum>
+        <nCardOpenChannel default="5" unit="无 无" id="101014" min="0" name="开卡通道" max="1" info="" enableType="重启">5</nCardOpenChannel>
+        <nCardOpenParam default="2" unit="无 无" id="101015" min="0" name="开卡参数" max="2" info="" enableType="重启">2</nCardOpenParam>
+		<nCapturePosType default="1" unit="无 无" id="101016" min="0" name="信号捕获位置类型" max="1" info="0=规划位置,1=编码器位置" enableType="重启">1</nCapturePosType>
+		<bDisableAxisStopDI default="0" unit="无 无" id="102001" min="0" name="关闭轴停止信号" max="1" info="0=不关闭,1=关闭" enableType="立即">0</bDisableAxisStopDI>
+        <nBoolVarNum default="20" unit="无 无" id="102002" min="0" name="内部BOOL变量数" max="20" info="" enableType="立即">20</nBoolVarNum>
+        <nLongVarNum default="20" unit="无 无" id="102003" min="0" name="内部LONG变量数" max="20" info="" enableType="立即">20</nLongVarNum>
+        <nDoubleVarNum default="20" unit="无 无" id="102004" min="0" name="内部DOUBLE变量数" max="20" info="" enableType="立即">20</nDoubleVarNum>
+        <nRemoteMode default="0" unit="无 无" id="102005" min="0" name="远程模式选择" max="2" info="0=不启用 1=远程IO模式 2=远程TCP模式" enableType="立即">0</nRemoteMode>
+        <nReplayIoEnable default="0" unit="无 无" id="102006" min="0" name="回放-IO控制生效" max="1" info="0=不使能,1=使能,用于使能例如机器人上、下伺服等命令" enableType="立即">0</nReplayIoEnable>
+        <nReplayBtnDisable default="0" unit="无 无" id="102007" min="0" name="回放-手持盒按键屏蔽" max="1" info="0不屏蔽，1屏蔽,用于回放模式下手持盒绿灯与白灯屏蔽使能" enableType="立即">0</nReplayBtnDisable>
+        <nSwitchTon default="0" unit="ms ms" id="102008" min="0" name="三段开关接通延时" max="1" info="按下三段开关后,延迟上伺服的时间" enableType="立即">0</nSwitchTon>
+        <nSwitchTof default="0" unit="ms ms" id="102009" min="0" name="三段开关断开延时" max="1" info="松开三段开关后,延迟下伺服的时间" enableType="立即">0</nSwitchTof>
+        <nWatchMode default="0" unit="无 无" id="102010" min="0" name="Watch模式" max="1" info="0=关闭 1=开启,示教程序使用WATCHON、WATCHOFF时需开启" enableType="立即">0</nWatchMode>
+        <nSynPosCycleTime default="1000" unit="ms ms" id="102011" min="0" name="位置同步周期" max="9999999" info="系统空闲时,周期将编码器位置同步至规划位置,0表示不同步位置" enableType="立即">1000</nSynPosCycleTime>
+        <nEstopMode default="0" unit="无 无" id="102012" min="0" name="急停模式" max="1" info="0=急停立即下使能,1=急停减速到0后下使能" enableType="立即">0</nEstopMode>
+        <nRuntoPointMode default="0" unit="无 无" id="102013" min="0" name="运动到点模式" max="2" info="0=当前坐标系进行运动插补 1=强制进行关节插补,2=强制进行直角插补" enableType="立即">0</nRuntoPointMode>
+        <nCoordinateMode default="0" unit="无 无" id="102014" min="0" name="选择坐标系模式" max="2" info="0=可切换所有坐标系,1=跳过TCS、PCS切换,2=只能使用ACS关节坐标系" enableType="立即">0</nCoordinateMode>
+		<nbreakModeEnable default="0" unit="无 无" id="102015" min="0" name="是否开启断点重启" max="1" info="0=关闭,1=开启" enableType="立即">0</nbreakModeEnable>
+		<nSpeedMode default="0" unit="无 无" id="102016" min="0" name="全局倍率切换模式" max="1" info="0=HMI进行倍率切换,1=PLC进行倍率切换" enableType="立即">0</nSpeedMode>
+		<nPositionerJogMode default="0" unit="无 无" id="102017" min="0" name="变位机JOG模式" max="1" info="0=使用机器人2进行变位机jog,1=使用扩展轴按键进行变位机JOG" enableType="重启">0</nPositionerJogMode>
+		<nRecordPosMode default="0" unit="无 无" id="102018" min="0" name="记录位置点模式" max="2" info="0=当前坐标系,1=强制记录ACS位置,2=强制记录MCS位置" enableType="立即">0</nRecordPosMode>
+    </SysCtlParam>
+</SystemParameter>

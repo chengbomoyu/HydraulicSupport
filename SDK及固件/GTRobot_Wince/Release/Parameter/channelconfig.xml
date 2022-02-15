@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SystemChannelParameter version="2.1.0.0">
+    <SysChannelCtrlParam id="0">
+        <auGroupDynType id="201301" name="Group动态跟踪类型" min="0" max="1" unit="无" apply_time="重启生效" info="">0</auGroupDynType>
+        <auGroupSynType id="201302" name="Group同步运动类型" min="0" max="1" unit="无" apply_time="重启生效" info="">0</auGroupSynType>
+        <bEnableDynamicCoordinate id="201201" name="动态坐标系模式" min="0" max="3" unit="无" apply_time="重启生效" info="0=不使能，1=地轨跟踪，2=变位机跟踪，3=桁架跟踪">3</bEnableDynamicCoordinate>
+        <nExtAxisNum id="201101" name="外部轴数" min="0" max="8" unit="无" apply_time="重启生效" info="0=不配置">0</nExtAxisNum>
+        <nGantryAxisNum id="201102" name="龙门从轴数" min="0" max="2" unit="无" apply_time="重启生效" info="0=不配置">0</nGantryAxisNum>
+        <nGroupNo id="201001" name="机器人1-组号" min="0" max="3" unit="无" apply_time="重启生效" info="0=不配置，1、2、3表示机器人1对应的组参数ID。$$机器人控制系统支持2个通道共16个轴的控制。各通道支持两个机器人组和最多8个外部轴的控制。$$● 轴：机器人系统控制的最小运动单元，包括旋转轴与直线轴。$$● 机器人组：采用同一组模型进行控制的机构单元。一个机器人组一般包含多个轴。例如 SCARA 机器人（4轴机器人）、六自由度机器人（6轴机器人）、双轴变位机（2轴机器人）等。$$● 外部轴：与机器人组通过同步或异步方式关联控制的轴。$$● 通道：机器人组和外部轴的集合。同一通道的机器人组或外部轴可以关联运动，或使用同一个示教程序进行自动控制。$">1</nGroupNo>
+        <nGroupNo2 id="201002" name="机器人2-组号" min="0" max="3" unit="无" apply_time="重启生效" info="0=不配置，1、2、3表示机器人2对应的组参数ID。$$轴、组、通道的概念详见[201001~机器人1-组号]">2</nGroupNo2>
+        <nGroupNo3 id="201003" name="机器人3-组号" min="0" max="3" unit="无" apply_time="重启生效" info="0=不配置，1、2、3表示机器人3对应的组参数ID。$$轴、组、通道的概念详见[201001~机器人1-组号]">0</nGroupNo3>
+        <nReplayOverrideSelect id="201402" name="回放模式速度倍率选择" min="0" max="16" unit="无" apply_time="重启生效" info="默认应与通道号相同">1</nReplayOverrideSelect>
+        <nTeachOverrideSelect id="201401" name="示教模式速度倍率选择" min="0" max="16" unit="无" apply_time="重启生效" info="默认应与通道号相同">1</nTeachOverrideSelect>
+    </SysChannelCtrlParam>
+    <SysChannelCtrlParam id="1">
+        <auGroupDynType id="201301" name="Group动态跟踪类型" min="0" max="1" unit="无" apply_time="重启生效" info="">0</auGroupDynType>
+        <auGroupSynType id="201302" name="Group同步运动类型" min="0" max="1" unit="无" apply_time="重启生效" info="">0</auGroupSynType>
+        <bEnableDynamicCoordinate id="201201" name="动态坐标系模式" min="0" max="3" unit="无" apply_time="重启生效" info="0=不使能，1=地轨跟踪，2=变位机跟踪，3=桁架跟踪">0</bEnableDynamicCoordinate>
+        <nExtAxisNum id="201101" name="外部轴数" min="0" max="8" unit="无" apply_time="重启生效" info="0=不配置">0</nExtAxisNum>
+        <nGantryAxisNum id="201102" name="龙门从轴数" min="0" max="2" unit="无" apply_time="重启生效" info="0=不配置">0</nGantryAxisNum>
+        <nGroupNo id="201001" name="机器人1-组号" min="0" max="3" unit="无" apply_time="重启生效" info="0=不配置，1、2、3表示机器人1对应的组参数ID。$$机器人控制系统支持2个通道共16个轴的控制。各通道支持两个机器人组和最多8个外部轴的控制。$$● 轴：机器人系统控制的最小运动单元，包括旋转轴与直线轴。$$● 机器人组：采用同一组模型进行控制的机构单元。一个机器人组一般包含多个轴。例如 SCARA 机器人（4轴机器人）、六自由度机器人（6轴机器人）、双轴变位机（2轴机器人）等。$$● 外部轴：与机器人组通过同步或异步方式关联控制的轴。$$● 通道：机器人组和外部轴的集合。同一通道的机器人组或外部轴可以关联运动，或使用同一个示教程序进行自动控制。$">0</nGroupNo>
+        <nGroupNo2 id="201002" name="机器人2-组号" min="0" max="3" unit="无" apply_time="重启生效" info="0=不配置，1、2、3表示机器人2对应的组参数ID。$$轴、组、通道的概念详见[201001~机器人1-组号]">0</nGroupNo2>
+        <nGroupNo3 id="201003" name="机器人3-组号" min="0" max="3" unit="无" apply_time="重启生效" info="0=不配置，1、2、3表示机器人3对应的组参数ID。$$轴、组、通道的概念详见[201001~机器人1-组号]">0</nGroupNo3>
+        <nReplayOverrideSelect id="201402" name="回放模式速度倍率选择" min="0" max="16" unit="无" apply_time="重启生效" info="默认应与通道号相同">1</nReplayOverrideSelect>
+        <nTeachOverrideSelect id="201401" name="示教模式速度倍率选择" min="0" max="16" unit="无" apply_time="重启生效" info="默认应与通道号相同">1</nTeachOverrideSelect>
+    </SysChannelCtrlParam>
+</SystemChannelParameter>

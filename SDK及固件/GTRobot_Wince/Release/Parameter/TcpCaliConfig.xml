@@ -1,0 +1,394 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<TcpCaliConfig20P>
+    <rob_cali_type>0</rob_cali_type>
+    <rob_link>215.00000000 220.00000000 830.00000000 187.00000000 545.00000000 145.00000000 145.00000000</rob_link>
+    <dtheta>0.00000000 0.00000000 0.00000000 0.00000000</dtheta>
+    <dtool>0.00000000 0.00000000 0.00000000</dtool>
+    <derror>0.00000000 0.00000000</derror>
+    <cali_iteration_counter>0</cali_iteration_counter>
+    <current_tcs_id>0</current_tcs_id>
+    <current_axis_pos_id>1</current_axis_pos_id>
+    <axis_pos_is_record>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</axis_pos_is_record>
+    <cali_ok_flag>0</cali_ok_flag>
+    <point id="0">
+        <groupPoint id="0">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <groupPoint id="1">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <extJoint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extJoint>
+    </point>
+    <point id="1">
+        <groupPoint id="0">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <groupPoint id="1">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <extJoint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extJoint>
+    </point>
+    <point id="2">
+        <groupPoint id="0">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <groupPoint id="1">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <extJoint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extJoint>
+    </point>
+    <point id="3">
+        <groupPoint id="0">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <groupPoint id="1">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <extJoint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extJoint>
+    </point>
+    <point id="4">
+        <groupPoint id="0">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <groupPoint id="1">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <extJoint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extJoint>
+    </point>
+    <point id="5">
+        <groupPoint id="0">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <groupPoint id="1">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <extJoint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extJoint>
+    </point>
+    <point id="6">
+        <groupPoint id="0">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <groupPoint id="1">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <extJoint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extJoint>
+    </point>
+    <point id="7">
+        <groupPoint id="0">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <groupPoint id="1">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <extJoint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extJoint>
+    </point>
+    <point id="8">
+        <groupPoint id="0">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <groupPoint id="1">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <extJoint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extJoint>
+    </point>
+    <point id="9">
+        <groupPoint id="0">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <groupPoint id="1">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <extJoint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extJoint>
+    </point>
+    <point id="10">
+        <groupPoint id="0">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <groupPoint id="1">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <extJoint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extJoint>
+    </point>
+    <point id="11">
+        <groupPoint id="0">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <groupPoint id="1">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <extJoint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extJoint>
+    </point>
+    <point id="12">
+        <groupPoint id="0">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <groupPoint id="1">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <extJoint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extJoint>
+    </point>
+    <point id="13">
+        <groupPoint id="0">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <groupPoint id="1">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <extJoint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extJoint>
+    </point>
+    <point id="14">
+        <groupPoint id="0">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <groupPoint id="1">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <extJoint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extJoint>
+    </point>
+    <point id="15">
+        <groupPoint id="0">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <groupPoint id="1">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <extJoint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extJoint>
+    </point>
+    <point id="16">
+        <groupPoint id="0">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <groupPoint id="1">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <extJoint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extJoint>
+    </point>
+    <point id="17">
+        <groupPoint id="0">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <groupPoint id="1">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <extJoint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extJoint>
+    </point>
+    <point id="18">
+        <groupPoint id="0">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <groupPoint id="1">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <extJoint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extJoint>
+    </point>
+    <point id="19">
+        <groupPoint id="0">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <groupPoint id="1">
+            <coordType>0</coordType>
+            <configNumber>0</configNumber>
+            <posType>0</posType>
+            <orientationMode>0</orientationMode>
+            <rev>0 0 0 0</rev>
+            <joint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</joint>
+        </groupPoint>
+        <extJoint>0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000</extJoint>
+    </point>
+</TcpCaliConfig20P>

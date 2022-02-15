@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SystemParameter version="2.1.0.0">
+    <SysCtlParam>
+        <bDisableAxisStopDI id="101801" name="禁用轴停止信号" min="0" max="1" unit="无 无" apply_time="立即生效" info="0=不禁用，1=禁用；$禁用后，所有轴的轴停止信号均失效">1</bDisableAxisStopDI>
+        <bGxnExtModule id="101401" name="是否配置扩展IO模块" min="0" max="1" unit="无 无" apply_time="重启生效" info="0=不配置，1=配置">0</bGxnExtModule>
+        <eHmiDiNum id="101202" name="示教器DI数量" min="0" max="16" unit="无 无" apply_time="重启生效" info="默认为16位DI">16</eHmiDiNum>
+        <eHmiDoNum id="101203" name="示教器DO数量" min="0" max="16" unit="无 无" apply_time="重启生效" info="默认为16位DO">16</eHmiDoNum>
+        <eHmiType id="101201" name="是否使用示教器" min="0" max="1" unit="无 无" apply_time="重启生效" info="0=不使用示教器，1=使用示教器">1</eHmiType>
+        <gxnExtDiNum id="101402" name="扩展DI数量" min="0" max="16" unit="无 无" apply_time="重启生效" info="默认为16位DI">16</gxnExtDiNum>
+        <gxnExtDoNum id="101403" name="扩展DO数量" min="0" max="16" unit="无 无" apply_time="重启生效" info="默认为16位DO">16</gxnExtDoNum>
+        <localDiNum id="101301" name="本地DI数量" min="0" max="64" unit="无 无" apply_time="重启生效" info="不同控制器的本地DI数量如下：$拿云4(3kW)：8$拿云4(6kW)：32$拿云6(3kW)：36$拿云6(6kW)：36$RC810：16$GNS：16$GTRC：16">41</localDiNum>
+        <localDoNum id="101302" name="本地DO数量" min="0" max="64" unit="无 无" apply_time="重启生效" info="不同控制器的本地DO数量如下：$拿云4(3kW)：8$拿云4(6kW)：32$拿云6(3kW)：36$拿云6(6kW)：36$RC810：16$GNS：16$GTRC：16">40</localDoNum>
+        <nBoolVarNum id="101601" name="内部BOOL变量数" min="0" max="20" unit="无 无" apply_time="立即生效" info="系统最多支持20个内部BOOL变量数，变量号为B9000~B9019">20</nBoolVarNum>
+        <nCapturePosType id="101701" name="信号捕获位置类型" min="0" max="1" unit="无 无" apply_time="立即生效" info="0=规划位置，1=编码器位置">1</nCapturePosType>
+        <nCardOpenChannel id="101102" name="控制器开卡通道" min="0" max="5" unit="无 无" apply_time="重启生效" info="统一使用5">5</nCardOpenChannel>
+        <nCardOpenParam id="101103" name="控制器开卡参数" min="0" max="2" unit="无 无" apply_time="重启生效" info="统一使用2">2</nCardOpenParam>
+        <nCardType id="101101" name="控制器类型" min="0" max="2" unit="无 无" apply_time="重启生效" info="所有控制器均使用2">2</nCardType>
+        <nCoordinateMode id="102402" name="坐标系切换模式" min="0" max="2" unit="无 无" apply_time="立即生效" info="0=允许切换所有坐标系，1=仅允许切换关节坐标系与直角坐标系，2=仅允许使用关节坐标系">0</nCoordinateMode>
+        <nDoubleVarNum id="101603" name="内部DOUBLE变量数" min="0" max="20" unit="无 无" apply_time="立即生效" info="系统最多支持20个内部DOUBLE变量数，变量号为R9000~R9019">20</nDoubleVarNum>
+        <nEstopMode id="102301" name="急停模式" min="0" max="1" unit="无 无" apply_time="立即生效" info="0=按下急停开关后立即下使能，1=按下急停开关后减速到0后下使能">1</nEstopMode>
+        <nLongVarNum id="101602" name="内部LONG变量数" min="0" max="20" unit="无 无" apply_time="立即生效" info="系统最多支持20个内部LONG变量数，变量号为I9000~I9019">20</nLongVarNum>
+        <nRemoteMode id="101901" name="远程模式信号源" min="0" max="2" unit="无 无" apply_time="立即生效" info="0=不启用，1=远程IO ，2=远程TCP。$$【远程IO】：通过外部IO端口对机器人进行操作。通过外部启动功能可以让用户方便的通过自定义的外设对机器人进行远程操作。IO启动功能在不同的模式下有不同的使用方法:$1）回放模式：通过DI配置，实现对机器人的伺服使能、程序启动、运动停止、系统复位等功能的控制。IO的信号源可以是本地IO、扩展IO、ModbusTCP配置的通讯IO等。$2）远程模式：支持程序预约功能。通过IO选择程序的同时，启动对应程序。在程序运行的情况下，可以用IO触发额外程序放入预约列表。$远程IO功能详见《操作手册-IO远程启动功能》章节。$$【远程TCP】：使用TCP命令改变机器人系统的状态，命令机器人启动示教文件，也可以对机器人的变量、参数进行查询和修改。$远程TCP功能详见《开发手册-TCP命令远程控制功能》章节。">1</nRemoteMode>
+        <nReplayBtnDisable id="101903" name="禁用回放模式启停按钮" min="0" max="1" unit="无 无" apply_time="立即生效" info="0=不禁用，1=禁用">0</nReplayBtnDisable>
+        <nReplayIoEnable id="101902" name="工艺模块控制回放运行" min="0" max="1" unit="无 无" apply_time="立即生效" info="0=不允许，1=允许">0</nReplayIoEnable>
+        <nRuntoPointMode id="102401" name="运动到点的坐标系类型" min="0" max="2" unit="无 无" apply_time="立即生效" info="0=当前坐标系，运动到点时使用当前生效的坐标系；1=关节坐标系，运动到点时仅使用关节坐标系；2=直角坐标系，运动到点时仅使用直角坐标系">0</nRuntoPointMode>
+        <nSpeedMode id="102404" name="全局速度倍率调节模式" min="0" max="1" unit="无 无" apply_time="立即生效" info="0=分级变速，1=无级变速。$$【分级变速】：示教模式下，用户可通过示教器上的【高速】键或【低速】键调整机器人JOG运动的速度倍率。速度倍率按以下顺序变化：$● 按示教器上【高速】键，每按一次，速度倍率按以下顺序变化：$微动 0.1% →微动 0.5% →低 1% →低 2% →低 5% →低 10% →中 20% →中 30% →中 40% → 中 50% →高 60% →高 70% →高 80% →高 90% →高 100%。$● 按示教器上【低速】键，每按一次，速度倍率按以下顺序变化：$高 100% →高 90% →高 80% →高 70% →高 60% →中 50% →中 40% →中 30% →中 20% → 低 10% →低 5% →低 2% →低 1% →微动 0.5% →微动 0.1%。$$【无级变速】：示教模式下，用户可通过示教器上的【高速】或【低速】键调整机器人JOG运动的速度倍率；每按一次，速度变化 1%，长按可连续变化，按压时间越长变化速率越快。$$注意：示教模式下，返回作业原点、前进检查、运动到点时，按下示教器上的【上档】键，再按下【高速】键或【低速】键，切换速度倍率。$$注意：回放和远程模式下，按下示教器上的【上档】键，并同时按下【高速】键或【低速】键，切换速度倍率。">0</nSpeedMode>
+        <nSwitchTof id="102002" name="三段开关断开延时" min="0" max="1" unit="毫秒 毫秒" apply_time="立即生效" info="">0</nSwitchTof>
+        <nSwitchTon id="102001" name="三段开关接通延时" min="0" max="1" unit="毫秒 毫秒" apply_time="立即生效" info="">0</nSwitchTon>
+        <nSynPosCycleTime id="102201" name="编码器位置同步周期" min="0" max="9999999" unit="毫秒 毫秒" apply_time="立即生效" info="0=不同步，大于0：编码器位置同步的周期">1000</nSynPosCycleTime>
+        <nSysAxisNum id="101501" name="系统控制轴数" min="1" max="16" unit="无 无" apply_time="重启生效" info="系统最多支持16个轴。$$系统控制轴数的计算方法为：$[101501~系统控制轴数]=机器人组1[301002-模型控制轴数] + 机器人组2[301002~模型控制轴数] + 机器人组3[301002~模型控制轴数]  + 通道1[201101~外部轴数] + 通道2[201101~外部轴数] + 通道1[201102~龙门从轴数] + 通道2[201102~龙门从轴数]$$注意：$- 若[101502~系统通道数]设置为1（仅开启一个通道），则不需要考虑通道2的外部轴数与龙门从轴数$- 若[201001~机器人1-组号]设置为0，则不需要考虑机器人1的模型控制轴数；$- 若[201002~机器人2-组号]设置为0，则不需要考虑机器人2的模型控制轴数；$- 若[201003~机器人3-组号]设置为0，则不需要考虑机器人3的模型控制轴数；">8</nSysAxisNum>
+        <nSysChannelNum id="101502" name="系统通道数" min="1" max="2" unit="无 无" apply_time="重启生效" info="系统最多支持2个通道">1</nSysChannelNum>
+        <nSysGroupNum id="101503" name="系统机器人组数" min="1" max="3" unit="无 无" apply_time="重启生效" info="每个通道最多支持3个机器人组">2</nSysGroupNum>
+        <nSystemLanguage id="101001" name="系统语言" min="0" max="1" unit="无 无" apply_time="重启生效" info="0=中文，1=English">0</nSystemLanguage>
+        <nWatchMode id="102101" name="是否支持WATCH指令" min="0" max="1" unit="无 无" apply_time="立即生效" info="0=不支持，1=支持">0</nWatchMode>
+        <nbreakModeEnable id="102403" name="开启断电恢复" min="0" max="1" unit="无 无" apply_time="立即生效" info="0=关闭，1=开启；$若开启断电恢复，控制器断电重启后，机器人系统将恢复到断电前的状态。可恢复的状态包括：当前的示教程序、示教程序行号、循环模式、全局速度倍率、IO状态、全局变量、当前坐标系类型、工具号等。">0</nbreakModeEnable>
+    </SysCtlParam>
+</SystemParameter>

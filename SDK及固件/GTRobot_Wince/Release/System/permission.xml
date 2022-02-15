@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Permission>
+  <User name="Operator"> 
+    <Program group="1">1</Program>
+	
+	<VariableBoolFrame name="布尔型" group="2">1</VariableBoolFrame>
+	<VariableIntFrame name="整数型" group="2">1</VariableIntFrame>
+	<VariableRealFrame name="实数型" group="2">1</VariableRealFrame>  
+    <VariableStringFrame name="字符型" group="2">1</VariableStringFrame>  
+    <VariablePositionFrame name="位置型" group="2">1</VariablePositionFrame>
+	<VariableIncPosition2Frame name="增量位置型" group="2">0</VariableIncPosition2Frame> 
+	
+    <StatusDigitalIo name="旧IO" group="4">0</StatusDigitalIo>  
+	<GTRobotStatusIo name="IO" group="4">1</GTRobotStatusIo>
+    <StatusTime name="时间" group="4">0</StatusTime>  
+    <StatusCommonAxis name="轴状态" group="4">1</StatusCommonAxis>  
+    <StatusCurrentPos name="当前位置" group="4">1</StatusCurrentPos>
+	<GTRobotExceptionFrame name="异常处理" group="4">1</GTRobotExceptionFrame>
+	
+    <SettingSystemPara name="控制器" group="5">0</SettingSystemPara>
+	<SettingSystemChannelPara name="通道控制" group="5">0</SettingSystemChannelPara>
+	<SettingGroupParaFrame name="组参数" group="5">0</SettingGroupParaFrame>  
+	<SettingAxisMotionConfigFrame name="机械构型" group="5">0</SettingAxisMotionConfigFrame>
+    <SettingAxisParaFrame name="轴参数" group="5">0</SettingAxisParaFrame>  
+	<SystemZeroCalibration name="零位标定" group="5">0</SystemZeroCalibration> 
+	<SystemCoordManageFrame name="坐标系" group="5">0</SystemCoordManageFrame>
+    <ExternalIoConfigFrame name="通讯" group="5">0</ExternalIoConfigFrame>
+	<SettingZeroPosFrame name="作业原点" group="5">0</SettingZeroPosFrame> 
+	<GTRobotSettingPositionerFrame name="变位系统" group="5">0</GTRobotSettingPositionerFrame>
+	
+    <AlarmHistory name="报警历史" group="6">0</AlarmHistory>
+    <LogOperating name="操作日志" group="6">0</LogOperating>
+	
+	<SystemPermissionFrame name="用户权限" group="7">1</SystemPermissionFrame>
+	<SystemFileManageFrame name="文件管理" group="7">0</SystemFileManageFrame>
+	<SystemBackupFrame name="系统备份" group="7">0</SystemBackupFrame>
+    <DebugFrame name="调试" group="7">0</DebugFrame>
+	<SystemVersionFrame name="查看版本" group="7">1</SystemVersionFrame>
+	
+  </User> 
+  
+  <User name="Manager"> 
+    <Program group="1">1</Program>
+	
+	<VariableBoolFrame name="布尔型" group="2">1</VariableBoolFrame>
+	<VariableIntFrame name="整数型" group="2">1</VariableIntFrame>
+	<VariableRealFrame name="实数型" group="2">1</VariableRealFrame>  
+    <VariableStringFrame name="字符型" group="2">1</VariableStringFrame>  
+    <VariablePositionFrame name="位置型" group="2">1</VariablePositionFrame>
+	<VariableIncPosition2Frame name="增量位置型" group="2">0</VariableIncPosition2Frame> 
+	
+    <StatusDigitalIo name="旧IO" group="4">0</StatusDigitalIo>  
+	<GTRobotStatusIo name="IO" group="4">1</GTRobotStatusIo>
+    <StatusTime name="时间" group="4">0</StatusTime>  
+    <StatusCommonAxis name="轴状态" group="4">1</StatusCommonAxis>  
+    <StatusCurrentPos name="当前位置" group="4">1</StatusCurrentPos>
+	<GTRobotExceptionFrame name="异常处理" group="4">1</GTRobotExceptionFrame>
+	
+    <SettingSystemPara name="控制器" group="5">1</SettingSystemPara> 
+	<SettingSystemChannelPara name="通道控制" group="5">1</SettingSystemChannelPara>
+	<SettingGroupParaFrame name="组参数" group="5">1</SettingGroupParaFrame>  
+	<SettingAxisMotionConfigFrame name="机械构型" group="5">1</SettingAxisMotionConfigFrame>
+    <SettingAxisParaFrame name="轴参数" group="5">1</SettingAxisParaFrame>  
+	<SystemZeroCalibration name="零位标定" group="5">1</SystemZeroCalibration>
+	<SystemCoordManageFrame name="坐标系" group="5">1</SystemCoordManageFrame>
+    <ExternalIoConfigFrame name="通讯" group="5">1</ExternalIoConfigFrame>
+	<SettingZeroPosFrame name="作业原点" group="5">1</SettingZeroPosFrame> 
+	<GTRobotSettingPositionerFrame name="变位系统" group="5">1</GTRobotSettingPositionerFrame>
+	
+    <AlarmHistory name="报警历史" group="6">1</AlarmHistory>  
+    <LogOperating name="操作日志" group="6">1</LogOperating>  
+	
+	<SystemPermissionFrame name="用户权限" group="7">1</SystemPermissionFrame>
+	<SystemFileManageFrame name="文件管理" group="7">0</SystemFileManageFrame>
+	<SystemBackupFrame name="系统备份" group="7">0</SystemBackupFrame>
+    <DebugFrame name="调试" group="7">0</DebugFrame>
+	<SystemVersionFrame name="查看版本" group="7">1</SystemVersionFrame>
+	
+  </User>
+
+<User name="Factory"> 
+    <Program group="1">1</Program>
+	
+	<VariableBoolFrame name="布尔型" group="2">1</VariableBoolFrame>
+	<VariableIntFrame name="整数型" group="2">1</VariableIntFrame>
+	<VariableRealFrame name="实数型" group="2">1</VariableRealFrame>  
+    <VariableStringFrame name="字符型" group="2">1</VariableStringFrame>  
+    <VariablePositionFrame name="位置型" group="2">1</VariablePositionFrame>
+	<VariableIncPosition2Frame name="增量位置型" group="2">0</VariableIncPosition2Frame> 
+	
+    <StatusDigitalIo name="旧IO" group="4">0</StatusDigitalIo>  
+	<GTRobotStatusIo name="IO" group="4">1</GTRobotStatusIo>
+    <StatusTime name="时间" group="4">0</StatusTime>  
+    <StatusCommonAxis name="轴状态" group="4">1</StatusCommonAxis>  
+    <StatusCurrentPos name="当前位置" group="4">1</StatusCurrentPos>
+	<GTRobotExceptionFrame name="异常处理" group="4">1</GTRobotExceptionFrame>
+	
+    <SettingSystemPara name="控制器" group="5">1</SettingSystemPara>
+	<SettingSystemChannelPara name="通道控制" group="5">1</SettingSystemChannelPara>  
+	<SettingGroupParaFrame name="组参数" group="5">1</SettingGroupParaFrame>  
+	<SettingAxisMotionConfigFrame name="机械构型" group="5">1</SettingAxisMotionConfigFrame>  
+    <SettingAxisParaFrame name="轴参数" group="5">1</SettingAxisParaFrame>  
+	<SystemZeroCalibration name="零位标定" group="5">1</SystemZeroCalibration> 
+	<SystemCoordManageFrame name="坐标系" group="5">1</SystemCoordManageFrame>
+    <ExternalIoConfigFrame name="通讯" group="5">1</ExternalIoConfigFrame>
+	<SettingZeroPosFrame name="作业原点" group="5">1</SettingZeroPosFrame>
+	<GTRobotSettingPositionerFrame name="变位系统" group="5">1</GTRobotSettingPositionerFrame>
+	
+    <AlarmHistory name="报警历史" group="6">1</AlarmHistory>  
+    <LogOperating name="操作日志" group="6">1</LogOperating>  
+	
+	<SystemPermissionFrame name="用户权限" group="7">1</SystemPermissionFrame>
+	<SystemFileManageFrame name="文件管理" group="7">0</SystemFileManageFrame>
+	<SystemBackupFrame name="系统备份" group="7">1</SystemBackupFrame>
+    <DebugFrame name="调试" group="7">1</DebugFrame>
+	<SystemVersionFrame name="查看版本" group="7">1</SystemVersionFrame>
+	
+  </User>   
+</Permission>

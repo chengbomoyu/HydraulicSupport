@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModbusServer>
+    <enable>1</enable>
+    <ip>192.168.0.11</ip>
+    <port>502</port>
+    <timeout>500</timeout>
+</ModbusServer>

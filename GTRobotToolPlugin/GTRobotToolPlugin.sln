@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GTRobotToolPlugin", "GTRobotToolPlugin\GTRobotToolPlugin.vcproj", "{14AE57A9-E1B4-4FE4-B014-18DDDFA7AA5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|guc_n455_ce6_sdk (x86) = Debug|guc_n455_ce6_sdk (x86)
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|guc_n455_ce6_sdk (x86) = Release|guc_n455_ce6_sdk (x86)
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14AE57A9-E1B4-4FE4-B014-18DDDFA7AA5B}.Debug|guc_n455_ce6_sdk (x86).ActiveCfg = Debug|guc_n455_ce6_sdk (x86)
+		{14AE57A9-E1B4-4FE4-B014-18DDDFA7AA5B}.Debug|guc_n455_ce6_sdk (x86).Build.0 = Debug|guc_n455_ce6_sdk (x86)
+		{14AE57A9-E1B4-4FE4-B014-18DDDFA7AA5B}.Debug|guc_n455_ce6_sdk (x86).Deploy.0 = Debug|guc_n455_ce6_sdk (x86)
+		{14AE57A9-E1B4-4FE4-B014-18DDDFA7AA5B}.Debug|Mixed Platforms.ActiveCfg = Debug|guc_n455_ce6_sdk (x86)
+		{14AE57A9-E1B4-4FE4-B014-18DDDFA7AA5B}.Debug|Mixed Platforms.Build.0 = Debug|guc_n455_ce6_sdk (x86)
+		{14AE57A9-E1B4-4FE4-B014-18DDDFA7AA5B}.Debug|Mixed Platforms.Deploy.0 = Debug|guc_n455_ce6_sdk (x86)
+		{14AE57A9-E1B4-4FE4-B014-18DDDFA7AA5B}.Debug|Win32.ActiveCfg = Debug|guc_n455_ce6_sdk (x86)
+		{14AE57A9-E1B4-4FE4-B014-18DDDFA7AA5B}.Release|guc_n455_ce6_sdk (x86).ActiveCfg = Release|guc_n455_ce6_sdk (x86)
+		{14AE57A9-E1B4-4FE4-B014-18DDDFA7AA5B}.Release|guc_n455_ce6_sdk (x86).Build.0 = Release|guc_n455_ce6_sdk (x86)
+		{14AE57A9-E1B4-4FE4-B014-18DDDFA7AA5B}.Release|guc_n455_ce6_sdk (x86).Deploy.0 = Release|guc_n455_ce6_sdk (x86)
+		{14AE57A9-E1B4-4FE4-B014-18DDDFA7AA5B}.Release|Mixed Platforms.ActiveCfg = Release|guc_n455_ce6_sdk (x86)
+		{14AE57A9-E1B4-4FE4-B014-18DDDFA7AA5B}.Release|Mixed Platforms.Build.0 = Release|guc_n455_ce6_sdk (x86)
+		{14AE57A9-E1B4-4FE4-B014-18DDDFA7AA5B}.Release|Mixed Platforms.Deploy.0 = Release|guc_n455_ce6_sdk (x86)
+		{14AE57A9-E1B4-4FE4-B014-18DDDFA7AA5B}.Release|Win32.ActiveCfg = Release|guc_n455_ce6_sdk (x86)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		QtVersion = Qtce
+	EndGlobalSection
+EndGlobal

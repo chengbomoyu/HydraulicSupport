@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModbusServer>
+    <enable>0</enable>
+    <read>1</read>
+    <write>1</write>
+    <ip>192.168.0.128</ip>
+    <port>502</port>
+    <stationid>1</stationid>
+    <readstartaddress>1</readstartaddress>
+    <readstartlen>10</readstartlen>
+    <writestartaddress>11</writestartaddress>
+    <writestartlen>10</writestartlen>
+    <timeout>500</timeout>
+</ModbusServer>

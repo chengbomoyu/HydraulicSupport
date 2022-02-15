@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SystemPlcDioConfig>
+    <DiConfig id="0">
+        <enable>1</enable>
+        <type>1</type>
+        <num>16</num>
+		<sense>0</sense>
+    </DiConfig>
+    <DiConfig id="1">
+        <enable>1</enable>
+        <type>0</type>
+        <num>41</num>
+		<sense>0</sense>
+    </DiConfig>
+    <DiConfig id="2">
+        <enable>0</enable>
+        <type>2</type>
+        <num>16</num>
+		<sense>0</sense>
+    </DiConfig>
+    <DiConfig id="3">
+        <enable>0</enable>
+        <type>2</type>
+        <num>16</num>
+		<sense>0</sense>
+    </DiConfig>
+    <DiConfig id="4">
+        <enable>0</enable>
+        <type>2</type>
+        <num>16</num>
+		<sense>0</sense>
+    </DiConfig>
+	<DiConfig id="5">
+        <enable>0</enable>
+        <type>2</type>
+        <num>16</num>
+		<sense>0</sense>
+    </DiConfig>
+	<DiConfig id="6">
+        <enable>0</enable>
+        <type>2</type>
+        <num>16</num>
+		<sense>0</sense>
+    </DiConfig>
+	<DiConfig id="7">
+        <enable>0</enable>
+        <type>2</type>
+        <num>16</num>
+		<sense>0</sense>
+    </DiConfig>
+</SystemPlcDioConfig>

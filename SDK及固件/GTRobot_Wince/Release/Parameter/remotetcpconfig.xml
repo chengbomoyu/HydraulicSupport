@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModbusServer>
+    <enable>0</enable>
+    <ip>192.168.0.2</ip>
+    <port>8888</port>
+</ModbusServer>

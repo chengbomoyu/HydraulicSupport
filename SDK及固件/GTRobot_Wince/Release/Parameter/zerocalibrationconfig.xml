@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ZeroCalibration>
+     <absEncoderZeroPos channel="0">
+          <joint>-146990023 -527471799 -481458913 1042147 -316733136 -1585596911 0 0</joint>
+          <joint_status>1 1 1 1 1 1 1 1</joint_status>
+          <joint_group2>7092717 -25488693 0 0 0 0 0 0</joint_group2>
+          <joint_status_group2>1 1 1 1 1 1 1 1</joint_status_group2>
+          <ext_joint>7092717 -25488693 0 0 0 0 0 0</ext_joint>
+          <ext_joint_status>1 1 1 1 1 1 1 1</ext_joint_status>
+          <joint_group3>0 0 0 0 0 0 0 0</joint_group3>
+          <joint_status_group3>0 0 0 0 0 0 0 0</joint_status_group3>
+     </absEncoderZeroPos>
+     <absEncoderZeroPos channel="1">
+          <joint>1 2 3 122113 2152 -7685732 0 0</joint>
+          <joint_status>1 1 1 1 1 1 1 1</joint_status>
+          <joint_group2>182842 -47421 0 0 0 0 0 0</joint_group2>
+          <joint_status_group2>1 1 1 1 1 1 1 1</joint_status_group2>
+          <ext_joint>0 0 0 0 0 0 0 0</ext_joint>
+          <ext_joint_status>0 0 0 0 0 0 0 0</ext_joint_status>
+          <joint_group3>0 0 0 0 0 0 0 0</joint_group3>
+          <joint_status_group3>0 0 0 0 0 0 0 0</joint_status_group3>
+     </absEncoderZeroPos>
+</ZeroCalibration>

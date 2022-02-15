@@ -1,0 +1,15 @@
+[TotalStations]
+TotalNumbers=2
+[station0]
+stationNum=1
+stationType=generalIO
+baudrate=2M
+inputLength=0x2
+outputLength=0x2
+
+[station1]
+stationNum=2
+stationType=analogModule
+baudrate=2M
+inputLength=12
+outputLength=8
