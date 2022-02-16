@@ -9,12 +9,8 @@ public:
 	double dvaluePressureNowAD;
 	double dValuePressureNow;
 
-	double dValuePressureError;
-	double dValuePressureLastError;
-	double dValuePressurePreviousError;
-	double dValueKp;
-	double dValueKi;
-	double dValueKd;
+	double Coefficient;
+	double Coefficient2;
 	
 	double dValuePressureContlolAD;
 	double dValuePressureContlolADDelta;

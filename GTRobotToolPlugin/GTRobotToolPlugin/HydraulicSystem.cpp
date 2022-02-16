@@ -10,18 +10,14 @@ HydraulicSystem::HydraulicSystem(){
 	dvaluePressureZeroAD = 0;
 
 	dvaluePressureNowAD = 0;
-	dValuePressureError = 0;
-	dValuePressureLastError = 0;
-	dValuePressurePreviousError = 0;
-	
-	dValueKp = 0;
-	dValueKi = 0;
-	dValueKd = 0;
+
+	Coefficient = 0.1;
+	Coefficient2 = 0.1;
 
 	dValuePressureContlolAD = 0;
 	dValuePressureContlolADDelta = 0;
-
 }
+
 HydraulicSystem::~HydraulicSystem(){
 }
 
@@ -37,10 +33,12 @@ void HydraulicSystem::HydraulicSystemEnableSet(){
 void HydraulicSystem::HydraulicSystemPressureSend(){
 	GTR_SetAoValue(dvaluePressureNowAD,1,1);
 }
+
 void HydraulicSystem::HydraulicSystemSerPressureZero(){
 	GTR_GetAiValue(dvaluePressureZeroAD,0,1);
 	dvaluePressureZeroAD = fabs(dvaluePressureZeroAD);
 }
+
 void HydraulicSystem::HydraulicSystemPIDControl(){
 
 	GTR_GetAiValue(dvaluePressureNowAD,0,1);
@@ -50,18 +48,13 @@ void HydraulicSystem::HydraulicSystemPIDControl(){
 	dValuePressureNow = temp * 2000;
 
 	if(statusSystem == true){
+		if(dValuePressureNow <= dValuePressureSet){
+			dValuePressureContlolAD = dValuePressureContlolAD + Coefficient;
+		}
+		if(dValuePressureNow > dValuePressureSet){
+			dValuePressureContlolAD = dValuePressureContlolAD - Coefficient2;
+		}
 
-		dValuePressureError = dValuePressureSet - dValuePressureNow;	
-	 
-		dValuePressureContlolADDelta =  dValueKp * (dValuePressureError - dValuePressureLastError) 
-									 +  dValueKi * dValuePressureError      
-									 +  dValueKd * (dValuePressureError - 2 * dValuePressureLastError + dValuePressurePreviousError); 
-		
-		dValuePressurePreviousError = dValuePressureLastError;	
-		dValuePressureLastError = dValuePressureError;		  	
-
-		dValuePressureContlolAD = dValuePressureContlolAD + dValuePressureContlolADDelta;
-		dValuePressureContlolAD = dValuePressureContlolAD / 2000;
 		if(dValuePressureContlolAD >= 5) dValuePressureContlolAD = 5;
 		if(dValuePressureContlolAD <= 0) dValuePressureContlolAD = 0;
 		GTR_SetAoValue(dValuePressureContlolAD,0,1);

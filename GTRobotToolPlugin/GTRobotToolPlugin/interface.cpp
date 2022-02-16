@@ -14,10 +14,9 @@ void bciHydraulicSystemPressureSet(double value){
 	mhydraulicsystem->dValuePressureSet = value;
 }
 
-void bciHydraulicSystemCoefficient(double dKp,double dKi,double dkd){
-	mhydraulicsystem->dValueKp = dKp;
-	mhydraulicsystem->dValueKi = dKi;
-	mhydraulicsystem->dValueKd = dkd;
+void bciHydraulicSystemCoefficient(double Coefficient1,double Coefficient2){
+	mhydraulicsystem->Coefficient = Coefficient1;
+	mhydraulicsystem->Coefficient2 = Coefficient2;
 }
 
 void bciHydraulicSystemPressureSetZero(){

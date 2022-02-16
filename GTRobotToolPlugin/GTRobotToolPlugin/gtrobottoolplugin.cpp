@@ -12,10 +12,8 @@ Support::Support(QWidget *parent){
 	this->statusSystem = false;
 	this->dValuePressureNow = 0;
 	this->dValuePressureSet = 0;
-	this->dValueCoefficient = 0;
-	this->dValueKp = 0;
-	this->dValueKi = 0;
-	this->dValueKd = 0;
+	this->dValueCoefficient = 0.1;
+	this->dValueCoefficient2 = 0.1;
 	this->signal_slot_connect();
 	GTR_RegisterPlcLoop(1,bciHydraulicSystemPIDControl);
 }
@@ -35,11 +33,10 @@ void Support::FastTimerLoop(){
 	this->dValuePressureNow = bciHydraulicSystemPressureShow();
 	bciHydraulicSystemPressureSend();
 	ui.lcdCoefficient->display(dValueCoefficient);
+	ui.lcdCoefficient2->display(dValueCoefficient2);
 	ui.lcdPressureNow->display(dValuePressureNow);
 	ui.lcdPressureSet->display(dValuePressureSet);
-	ui.lcdKp->display(dValueKp);
-	ui.lcdKi->display(dValueKi);
-	ui.lcdKd->display(dValueKd);
+
 }
 
 QString Support::getFrameName(){
@@ -68,12 +65,9 @@ void Support::signal_slot_connect(){
 	connect(ui.buttonPressureUp,SIGNAL(clicked()),this,SLOT(onpbtnclicked_buttonPressureUp()));
 	connect(ui.buttonCoefficientDown,SIGNAL(clicked()),this,SLOT(onpbtnclicked_buttonCoefficientDown()));
 	connect(ui.buttonCoefficientUp,SIGNAL(clicked()),this,SLOT(onpbtnclicked_buttonCoefficientUp()));
-	connect(ui.buttonKpDown,SIGNAL(clicked()),this,SLOT(onpbtnclicked_buttonKpDown()));
-	connect(ui.buttonKpUp,SIGNAL(clicked()),this,SLOT(onpbtnclicked_buttonKpUp()));
-	connect(ui.buttonKiDown,SIGNAL(clicked()),this,SLOT(onpbtnclicked_buttonKiDown()));
-	connect(ui.buttonKiUp,SIGNAL(clicked()),this,SLOT(onpbtnclicked_buttonKiUp()));
-	connect(ui.buttonKdDown,SIGNAL(clicked()),this,SLOT(onpbtnclicked_buttonKdDown()));
-	connect(ui.buttonKdUp,SIGNAL(clicked()),this,SLOT(onpbtnclicked_buttonKdUp()));
+	connect(ui.buttonCoefficient2Down,SIGNAL(clicked()),this,SLOT(onpbtnclicked_buttonCoefficient2Down()));
+	connect(ui.buttonCoefficient2Up,SIGNAL(clicked()),this,SLOT(onpbtnclicked_buttonCoefficient2Up()));
+
 }
 
 
@@ -103,35 +97,25 @@ void Support::onpbtnclicked_buttonPressureUp(){
 
 void Support::onpbtnclicked_buttonCoefficientDown(){
 	this->dValueCoefficient = dValueCoefficient - 0.1;
+	if(dValueCoefficient <=0.1 ) dValueCoefficient = 0.1;
+	bciHydraulicSystemCoefficient(dValueCoefficient,dValueCoefficient2);
 }
 void Support::onpbtnclicked_buttonCoefficientUp(){
 	this->dValueCoefficient = dValueCoefficient + 0.1;
+	if(dValueCoefficient >=5 ) dValueCoefficient = 5;
+	bciHydraulicSystemCoefficient(dValueCoefficient,dValueCoefficient2);
+}
+void Support::onpbtnclicked_buttonCoefficient2Down(){
+	this->dValueCoefficient2 = dValueCoefficient2 - 0.1;
+	if(dValueCoefficient2 <=0.1 ) dValueCoefficient2 = 0.1;
+	bciHydraulicSystemCoefficient(dValueCoefficient,dValueCoefficient2);
+}
+void Support::onpbtnclicked_buttonCoefficient2Up(){
+	this->dValueCoefficient2 = dValueCoefficient2 + 0.1;
+	if(dValueCoefficient2 >=5 ) dValueCoefficient2 = 5;
+	bciHydraulicSystemCoefficient(dValueCoefficient,dValueCoefficient2);
 }
 
-void Support::onpbtnclicked_buttonKpDown(){
-	this->dValueKp = dValueKp - dValueCoefficient;
-	bciHydraulicSystemCoefficient(dValueKp,dValueKi,dValueKd);
-}
-void Support::onpbtnclicked_buttonKiDown(){
-	this->dValueKi = dValueKi - dValueCoefficient;
-	bciHydraulicSystemCoefficient(dValueKp,dValueKi,dValueKd);
-}
-void Support::onpbtnclicked_buttonKdDown(){
-	this->dValueKd = dValueKd - dValueCoefficient;
-	bciHydraulicSystemCoefficient(dValueKp,dValueKi,dValueKd);
-}
-void Support::onpbtnclicked_buttonKpUp(){
-	this->dValueKp = dValueKp + dValueCoefficient;
-	bciHydraulicSystemCoefficient(dValueKp,dValueKi,dValueKd);
-}
-void Support::onpbtnclicked_buttonKiUp(){
-	this->dValueKi = dValueKi + dValueCoefficient;
-	bciHydraulicSystemCoefficient(dValueKp,dValueKi,dValueKd);
-}
-void Support::onpbtnclicked_buttonKdUp(){
-	this->dValueKd = dValueKd + dValueCoefficient;
-	bciHydraulicSystemCoefficient(dValueKp,dValueKi,dValueKd);
-}
 /*****************************************/
 
 Q_EXPORT_PLUGIN2("RobotHmi",Support);

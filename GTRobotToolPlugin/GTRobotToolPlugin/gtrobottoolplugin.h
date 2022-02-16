@@ -27,12 +27,9 @@ public:
 		void onpbtnclicked_buttonPressureUp();
 		void onpbtnclicked_buttonCoefficientDown();
 		void onpbtnclicked_buttonCoefficientUp();
-		void onpbtnclicked_buttonKpDown();
-		void onpbtnclicked_buttonKiDown();
-		void onpbtnclicked_buttonKdDown();
-		void onpbtnclicked_buttonKpUp();
-		void onpbtnclicked_buttonKiUp();
-		void onpbtnclicked_buttonKdUp();
+		void onpbtnclicked_buttonCoefficient2Down();
+		void onpbtnclicked_buttonCoefficient2Up();
+
 protected:
 	QString getFrameName();
 	QString getVersion();
@@ -49,9 +46,8 @@ public:
 	double dValuePressureNow;
 	double dValuePressureSet;
 	double dValueCoefficient;
-	double dValueKp;
-	double dValueKi;
-	double dValueKd;
+	double dValueCoefficient2;
+
 private:
 	Ui::supportClass ui;
 	/******************************************/

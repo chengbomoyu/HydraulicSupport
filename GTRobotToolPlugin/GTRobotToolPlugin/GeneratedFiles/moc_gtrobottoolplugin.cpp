@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'gtrobottoolplugin.h'
 **
-** Created: Tue Feb 15 17:20:33 2022
+** Created: Wed Feb 16 13:26:38 2022
 **      by: The Qt Meta Object Compiler version 62 (Qt 4.7.3)
 **
 ** WARNING! All changes made in this file will be lost!
@@ -23,7 +23,7 @@ static const uint qt_meta_data_Support[] = {
        5,       // revision
        0,       // classname
        0,    0, // classinfo
-      13,   14, // methods
+       9,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -39,11 +39,7 @@ static const uint qt_meta_data_Support[] = {
      179,    8,    8,    8, 0x0a,
      217,    8,    8,    8, 0x0a,
      253,    8,    8,    8, 0x0a,
-     282,    8,    8,    8, 0x0a,
-     311,    8,    8,    8, 0x0a,
-     340,    8,    8,    8, 0x0a,
-     367,    8,    8,    8, 0x0a,
-     394,    8,    8,    8, 0x0a,
+     292,    8,    8,    8, 0x0a,
 
        0        // eod
 };
@@ -56,12 +52,8 @@ static const char qt_meta_stringdata_Support[] = {
     "onpbtnclicked_buttonPressureUp()\0"
     "onpbtnclicked_buttonCoefficientDown()\0"
     "onpbtnclicked_buttonCoefficientUp()\0"
-    "onpbtnclicked_buttonKpDown()\0"
-    "onpbtnclicked_buttonKiDown()\0"
-    "onpbtnclicked_buttonKdDown()\0"
-    "onpbtnclicked_buttonKpUp()\0"
-    "onpbtnclicked_buttonKiUp()\0"
-    "onpbtnclicked_buttonKdUp()\0"
+    "onpbtnclicked_buttonCoefficient2Down()\0"
+    "onpbtnclicked_buttonCoefficient2Up()\0"
 };
 
 const QMetaObject Support::staticMetaObject = {
@@ -102,15 +94,11 @@ int Support::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         case 4: onpbtnclicked_buttonPressureUp(); break;
         case 5: onpbtnclicked_buttonCoefficientDown(); break;
         case 6: onpbtnclicked_buttonCoefficientUp(); break;
-        case 7: onpbtnclicked_buttonKpDown(); break;
-        case 8: onpbtnclicked_buttonKiDown(); break;
-        case 9: onpbtnclicked_buttonKdDown(); break;
-        case 10: onpbtnclicked_buttonKpUp(); break;
-        case 11: onpbtnclicked_buttonKiUp(); break;
-        case 12: onpbtnclicked_buttonKdUp(); break;
+        case 7: onpbtnclicked_buttonCoefficient2Down(); break;
+        case 8: onpbtnclicked_buttonCoefficient2Up(); break;
         default: ;
         }
-        _id -= 13;
+        _id -= 9;
     }
     return _id;
 }

@@ -3,7 +3,7 @@
 void bciHydraulicSystemInit();
 void bciHydraulicSystemStatusSet(bool status);
 void bciHydraulicSystemPressureSet(double value);
-void bciHydraulicSystemCoefficient(double dKp,double dKi,double dkd);
+void bciHydraulicSystemCoefficient(double Coefficient1,double Coefficient2);
 void bciHydraulicSystemPressureSetZero();
 
 double bciHydraulicSystemPressureShow();

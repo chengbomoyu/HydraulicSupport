@@ -404,19 +404,19 @@
 				Name="LIB"
 				>
 				<File
-					RelativePath=".\Libs\GTRobotBackEndDll.lib"
+					RelativePath="..\..\SDK&#21450;&#22266;&#20214;\GTRobotSDK\Libs\WinCE\Release\GTRobotBackEndDll.lib"
 					>
 				</File>
 				<File
-					RelativePath=".\Libs\GTRobotDll.lib"
+					RelativePath="..\..\SDK&#21450;&#22266;&#20214;\GTRobotSDK\Libs\WinCE\Release\GTRobotDll.lib"
 					>
 				</File>
 				<File
-					RelativePath=".\Libs\ShareMemoryDll.lib"
+					RelativePath="..\..\SDK&#21450;&#22266;&#20214;\GTRobotSDK\Libs\WinCE\Release\ShareMemoryDll.lib"
 					>
 				</File>
 				<File
-					RelativePath=".\Libs\WarningDll.lib"
+					RelativePath="..\..\SDK&#21450;&#22266;&#20214;\GTRobotSDK\Libs\WinCE\Release\WarningDll.lib"
 					>
 				</File>
 			</Filter>
